@@ -153,7 +153,7 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 
 ### 5.2 나중에 추가할 기능 (후보)
 - ✅ 연습 상태 체크 ("배우는 중 / 익힘", 레벨별 진행률) — **완료 (2026-09-11)**: 스텝 상세의 My progress 버튼, 목록 표시·레벨 진행률, 필터, "Continue" 버튼. 기록은 브라우저(기기)별 localStorage에 저장
-- 🗺 학습 로드맵 뷰 (선행 관계 흐름도)
+- 🗺 학습 로드맵 뷰 (선행 관계 흐름도) — **완료 (2026-09-11)**: `#/roadmap/:level`. 레벨별 Stage로 배치, 연습 상태로 색 구분(익힘·배우는 중·도전 가능·선행 필요), 스텝을 누르면 연결 화살표와 "Learn first / Leads to" 패널. 목록 머리글과 스텝 화면에서 진입
 - 🌙 다크 모드
 
 ---

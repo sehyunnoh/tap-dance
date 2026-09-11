@@ -5,7 +5,7 @@ import { STEP_BY_ID, stepsInLevel, youtubeSearchUrl } from '../data/steps'
 import { soundsLabel } from '../lib/format'
 import { useMetronome } from '../state/metronomeState'
 import type { Step } from '../types'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalIcon } from './icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalIcon, RoadmapIcon } from './icons'
 import { PracticeControl } from './PracticeControl'
 import { LevelDot, SectionTitle, StepChip, Tag } from './ui'
 import { VideoPanel } from './VideoPanel'
@@ -68,8 +68,12 @@ export function StepDetail({ step }: { step: Step }) {
               <Tag>{categoryLabel(step.category)}</Tag>
               {step.sounds !== undefined && <Tag>{soundsLabel(step.sounds)}</Tag>}
             </div>
-            <div className="pt-2">
+            <div className="flex flex-col gap-1 pt-2">
               <PracticeControl stepId={step.id} />
+              <Link to={`/roadmap/${step.level}`} state={{ focus: step.id }} className="flex h-9 w-fit items-center gap-1.5 text-sm underline">
+                <RoadmapIcon size={16} />
+                Show on the roadmap
+              </Link>
             </div>
           </div>
           <nav aria-label="Steps in this level" className="hidden shrink-0 gap-2 lg:flex">
