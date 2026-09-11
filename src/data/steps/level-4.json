@@ -2903,6 +2903,59 @@
     "level": 4,
     "essential": false,
     "category": "time-steps",
+    "sounds": 8,
+    "breakdown": [
+      "Hop",
+      "Shuffle",
+      "Step",
+      "Dig",
+      "Step",
+      "Spank",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Hop",
+        "beat": "8"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Dig (grind)",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Hop on the right foot, shuffle the left and step onto it, then dig the right heel with the toes turned in and grind on that heel, twisting the toes out, and step onto the left again. Finish with a right spank and a step onto the right. That is one eight-sound phrase (8&a1&2&3). It is danced three times on the same side and closed with a break of shuffle ball change and flap ball change, started by the free foot.",
+    "tips": [
+      "Start the dig pigeon-toed: the outward twist only reads if the toes begin clearly turned in.",
+      "Keep the hop low and on the ball of the foot so the shuffle and step fit neatly into 8&a1."
+    ],
     "prerequisites": [
       "traditional-single-time-step",
       "shuffle",

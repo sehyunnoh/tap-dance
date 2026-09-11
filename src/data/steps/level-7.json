@@ -1911,6 +1911,21 @@
     "level": 7,
     "essential": true,
     "category": "air",
+    "breakdown": [
+      "Brush",
+      "Single Wing",
+      "Spank",
+      "Single Wing"
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Two right-foot single wings under a left leg that swings like a pendulum. With your weight on the ball of the right foot, brush the left foot forward and go straight into a single wing on the right (scrape out, spank in, land on the same foot). Then spank the left foot back and do a second right single wing. The weight stays on the right foot throughout.",
+    "tips": [
+      "Treat the left brush and spank as pickups into each wing and keep them joined, so the phrase flows instead of stuttering.",
+      "Get single wings and the pendulum shuffle swing comfortable separately before putting them together."
+    ],
     "prerequisites": [
       "single-wing",
       "pendulum-shuffle"
@@ -2713,6 +2728,56 @@
     "level": 7,
     "essential": false,
     "category": "combination",
+    "sounds": 8,
+    "breakdown": [
+      "Flap",
+      "Shuffle",
+      "Single Pullback",
+      "Flap"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land",
+        "beat": "*"
+      },
+      {
+        "sound": "Brush",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Flap the right foot crossing in front of the left, then shuffle the left. Spring off the right into a single pullback (the right foot spanks back as it leaves the floor and you land on it again) and finish with a flap onto the left foot. Eight sounds, with the weight ending on the left. After the crossing flap, the rest is an Irish Pullback Flap on the other side: shuffle left, pullback right, flap left.",
+    "tips": [
+      "Spring high enough on the pullback that the landing and the left flap come out as separate, clear sounds.",
+      "Cross the opening flap well in front, the way a Buffalo crosses, so the left shuffle has room to swing."
+    ],
     "prerequisites": [
       "buffalo",
       "single-pullback",
