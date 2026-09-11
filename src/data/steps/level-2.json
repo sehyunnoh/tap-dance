@@ -812,6 +812,39 @@
     "level": 2,
     "essential": true,
     "category": "combination",
+    "sounds": 4,
+    "breakdown": [
+      "Flap",
+      "Heel",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Heel",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Flap the right foot (brush forward, then step onto its ball), then drop the left heel, and finally the right heel. Four sounds, finishing with your weight on both flat feet. It is the same opening the Alexander uses, and it can be played evenly (&1&2) or swung (a1 a2).",
+    "tips": [
+      "Swing it (a1 a2) at slow and medium tempos, and switch to the even &1&2 once it gets fast.",
+      "Keep the right heel lifted after the flap lands, so the left heel gets its own sound before the right one drops."
+    ],
     "prerequisites": [
       "flap-heel"
     ],
@@ -1874,6 +1907,35 @@
     "level": 2,
     "essential": false,
     "category": "classic",
+    "sounds": 3,
+    "breakdown": [
+      "Spank",
+      "Stamp",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Stamp",
+        "beat": "1"
+      },
+      {
+        "sound": "Step (with twist)",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Spank the right foot, then stamp it down flat on 1. On 2, step onto the left foot while you twist the right foot and lift its toe off the floor. Three sounds over two counts, with the step and the toe lift happening together.",
+    "tips": [
+      "Let the ankle go loose just before the stamp so the whole foot lands flat as one sound.",
+      "Drill it twice in a row on the same side, then add two flap ball changes, the way the United Taps practice combo strings it together."
+    ],
     "prerequisites": [
       "spank",
       "stamp",

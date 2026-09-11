@@ -907,7 +907,7 @@
       "slow": 60,
       "normal": 90
     },
-    "description": "A classic flash step. Step onto the left foot and swing the right leg up and across in front of your body. Then spring off the left, carry it over the raised right leg, and land back on the left. There are two sounds, the step and the landing, and the weight stays on the left foot.",
+    "description": "A classic flash step. Step onto the right foot and swing the left leg up and across in front of your body. Then spring off the right, carry it over the raised left leg, and land back on the right. There are two sounds, the step and the landing, and the weight stays on the right foot.",
     "tips": [
       "Keep the raised leg up while you jump over it; letting it drop and then lifting it back is considered cheating.",
       "Start with the modern version: bend the raised leg so the knee faces out and the toes point to the floor, which is much easier to clear than a straight leg."
@@ -1094,7 +1094,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Step onto the left foot, riff the right foot forward (the ball brushes the floor, then the heel strikes as the foot passes), then drop the left heel. Four sounds; the riffing foot takes no weight, so you stay on the left with the right free. The first sound can also be a hop or a leap, which gives the Hop Riff Heel and Leap Riff Heel versions.",
+    "description": "Step onto the right foot, riff the left foot forward (the ball brushes the floor, then the heel strikes as the foot passes), then drop the right heel. Four sounds; the riffing foot takes no weight, so you stay on the right with the left free. The first sound can also be a hop or a leap, which gives the Hop Riff Heel and Leap Riff Heel versions.",
     "tips": [
       "Keep the two riff sounds apart: press into the first one and bring the foot down at a steeper angle, so the heel doesn't land together with the ball.",
       "Hold the heel of the standing foot until the riff is finished; it tends to drop at the same moment as the dig."
@@ -1300,7 +1300,7 @@
       "slow": 60,
       "normal": 90
     },
-    "description": "This is the open-ended extension of the riff walk: after the 7-beat riff walk, you keep adding sounds (extra heel drops, toe drops or a toe tip) before walking onto the next foot. The free foot always opens with a riff and then takes the weight, and the phrase repeats on the other side, so the walk still travels forward foot by foot. The 8-beat version, for example, adds a toe tip behind at the end of the 7-beat pattern, and from there you can keep stretching it as far as your control allows.",
+    "description": "This is the open-ended extension of the riff walk: after the 7-beat riff walk, you keep adding sounds (extra heel drops, toe drops or a toe tip) before walking onto the next foot. The free foot always opens with a riff and then takes the weight, and the phrase repeats on the other side, so the walk still travels forward foot by foot. The 8-beat version, for example, fits one more heel drop on the walking foot right after its toe, before the closing left-right pair of heels, and from there you can keep stretching it as far as your control allows.",
     "tips": [
       "Add only one new sound at a time, and move on only when the whole pattern stays even at a slow tempo.",
       "Keep the brush and heel of the opening riff clearly apart; once the riff blurs, every sound after it slides out of place."
@@ -1459,9 +1459,48 @@
     "level": 4,
     "essential": true,
     "category": "rolls-riffs",
+    "sounds": 5,
+    "breakdown": [
+      "Riff",
+      "Pull",
+      "Dig",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Scuff",
+        "beat": "a"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "*"
+      },
+      {
+        "sound": "Dig",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Standing on the left foot, riff the right foot (brush the ball forward, then scuff the heel). The left foot then pulls back, spanking the floor as it leaves it, the right heel digs while the left is in the air, and the left comes down on its ball. Five sounds, with the last three packed tightly in just before the beat; the brush can also be played as a touch.",
+    "tips": [
+      "If the pull comes in late, start the pullback while the riff is still going.",
+      "If the dig lands early, lift the right foot higher before bringing its heel down."
+    ],
     "prerequisites": [
       "riff",
-      "pullback"
+      "pullback",
+      "single-pullback"
     ],
     "nextSteps": [],
     "videos": [
@@ -3600,6 +3639,40 @@
     "level": 4,
     "essential": false,
     "category": "rolls-riffs",
+    "sounds": 4,
+    "breakdown": [
+      "Stamp",
+      "Step",
+      "Heel",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Stamp",
+        "beat": "1"
+      },
+      {
+        "sound": "Step (ball)",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A cramp roll that opens with a stamp in place of the first ball step. Stamp the right foot, step onto the ball of the left, then drop the right heel and then the left heel. Four sounds on 1&a2, ending with your weight on both flat feet.",
+    "tips": [
+      "After the stamp, let the right heel come up as the left foot steps, so it has room to drop again.",
+      "Don't let that right heel fall early; it should wait until the left ball step has clearly sounded."
+    ],
     "prerequisites": [
       "stamp",
       "cramp-roll"

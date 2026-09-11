@@ -1528,7 +1528,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Stamp, then do a cramp roll while you turn: two quick ball steps, one on each foot, followed by the two heel drops in the same order. Five sounds, with the rotation happening over the ball steps, and you finish flat on both feet. It is usually done alternating, turning one way and then the other.",
+    "description": "Stamp the right foot, then do a cramp roll while you turn: the ball of the left, the ball of the right, then the right heel and the left heel, so the heels drop in the reverse order of the balls. Five sounds, with the rotation happening over the ball steps, and you finish flat on both feet. It is usually done alternating, turning one way and then the other.",
     "tips": [
       "Walk into the cramp roll instead of jumping into it - place one ball and then the other, and don't let the second ball step rush in.",
       "Spot a fixed point and keep both heels up until the rotation is done, so the two heel drops stay separate and even."
@@ -1848,7 +1848,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Swing the free foot forward so its heel scuffs the floor, dig that same heel down, then do a ball change: step onto the ball of the working foot and shift your weight straight back to the other foot. Four sounds, ending on the supporting foot so the working foot is free to repeat.",
+    "description": "Scuff the right heel forward and dig that same heel down, then do a ball change that starts with the other foot: step onto the ball of the left and shift your weight straight back onto the right. Four sounds, with the weight ending on the right foot.",
     "tips": [
       "After the scuff, raise the foot a little before digging - otherwise the dig drops in early and crowds the scuff.",
       "Keep the ball change small and under your body so the last two sounds stay quick and even."
@@ -1989,10 +1989,10 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Step onto the ball of one foot, drop that foot's heel, then drop the heel of the other foot. Three sounds; the weight moves onto the stepping foot and you finish with both heels down.",
+    "description": "Step onto the ball of the right foot, then drop the left heel, then the right heel. Three sounds on 1&a, finishing with the weight on both flat feet. The heel of the foot you just stepped on comes last, so it has to stay up while the other heel drops.",
     "tips": [
-      "At higher speeds the first heel tends to fall early; keep it lifted a bit more during the step so it has somewhere to drop from.",
-      "Keep the other heel raised until its turn, so the last sound doesn't merge with the one before it."
+      "At higher speeds the left heel tends to fall early; lift it a little higher while the right foot steps so it has somewhere to drop from.",
+      "Keep the right heel raised after the step until the left heel has sounded, so the last two sounds don't merge."
     ],
     "prerequisites": [
       "step-heel",

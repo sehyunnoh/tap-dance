@@ -1985,7 +1985,7 @@
       "slow": 70,
       "normal": 110
     },
-    "description": "The Alexander with a clunk where the toe sound usually goes. The sounds run flap, heel, heel, spank, heel, clunk, heel: eight taps spread across four counts, either even (&1&2&3&4) or swung (a1 a2 a3 a4). The clunk is played behind you.",
+    "description": "The Alexander with a clunk where the toe sound usually goes. Flap onto the right foot, drop the left heel and then the right, spank the left and drop the right heel, then clunk the left foot behind you and drop the right heel again. Eight taps across four counts, either even (&1&2&3&4) or swung (a1 a2 a3 a4).",
     "tips": [
       "Sink deeper into your knees just before the clunk; the extra bend gives the foot room to land the edge-of-shoe sound behind you.",
       "Get the plain Alexander clean first, then swap in the clunk without letting the heel after it get quieter."
@@ -2254,7 +2254,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A drawback (spank, heel, step) with one more heel drop added at the end. Four sounds counted &1&2, so the step lands on the & and the final heel falls on the beat.",
+    "description": "A drawback with one more heel drop added at the end: spank the right foot, drop the left heel, step onto the right, then drop the right heel. Four sounds counted &1&2, so the step lands on the & and the final heel falls on the beat.",
     "tips": [
       "The last heel is the one to watch: make it as loud as the first and don't let it fall early.",
       "Land the step on the ball with the heel still up, otherwise the step and final heel merge into one sound."
@@ -2318,7 +2318,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Two dig toes back to back: dig, toe, dig, toe, as four even sounds on 1&2&. The first toe carries the accent in the syllabus count.",
+    "description": "Dig the right heel, drop the left toe, dig the right heel again, then drop the right toe. Four even sounds on 1&2&, with the right foot playing three of them.",
     "tips": [
       "Bring the first toe in sooner than feels natural; it usually arrives late.",
       "Give the second toe real weight; it tends to come out soft and early."
@@ -2376,10 +2376,10 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Two heel drops followed by a toe drop and a step that land at the same instant, so the last sound is one combined hit. Three sounds on 1&a, traveling to the right.",
+    "description": "Drop the right heel, then the left heel, then drop the right toe and step onto the left foot at the same instant, so the last sound is one combined hit. Three sounds on 1&a, traveling to the right.",
     "tips": [
       "On the last sound the toe likes to beat the step to the floor. Lift that toe higher first and bring the step down fast so they meet.",
-      "Accent the second heel slightly, as the syllabus does, so the rhythm doesn't sound like three equal drops."
+      "Keep the two heels evenly spaced so the combined toe and step lands cleanly on the 'a'."
     ],
     "prerequisites": [
       "heel",
@@ -2445,7 +2445,7 @@
       "slow": 50,
       "normal": 90
     },
-    "description": "A split pullback with a heel slipped in between the landings: pull, pull, step, heel, step. Five sounds on 1e&a2, with the second pull and the last step accented.",
+    "description": "A split pullback with a heel slipped in between the landings. The right foot pulls back, then the left; you land on the ball of the right and drop its heel, and then the left lands. Five sounds on 1e&a2.",
     "tips": [
       "Push the heel down the moment the first step lands; a late heel crowds the final step.",
       "Get the plain double pullback steady first, then add the heel once the two pulls are even."
@@ -2505,7 +2505,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Jump out so you land with the feet apart, hop, drop a heel, then step crossing behind. Four sounds on 1 2&3, and the step travels to the right.",
+    "description": "Jump out so you land with the feet apart, hop on the right, drop the right heel, then step the left foot across behind. Four sounds on 1 2&3, and the step travels to the right.",
     "tips": [
       "Cross the legs deeply on the last step and let yourself really travel; the bigger the cross, the better it looks.",
       "Leave a full count between the jump and the hop so the rhythm stays 1, 2&3 and doesn't rush."
@@ -2573,10 +2573,10 @@
       "slow": 70,
       "normal": 120
     },
-    "description": "A cramp roll variation written with the same four sounds: two ball steps, then two heel drops, on 1&a2. The syllabus accents the second step.",
+    "description": "A cramp roll variation: step onto the ball of the right foot, then the ball of the left, then drop the right heel twice. Four sounds on 1&a2. In a regular cramp roll each foot drops its own heel, but here both heel sounds come from the right foot and the left heel is never played.",
     "tips": [
       "Hold the first heel up a fraction longer; it is the sound that most often drops early.",
-      "Keep the two ball steps as a quick pair so the heels have room to roll out evenly after them."
+      "Lift the right heel straight back up after the first drop, so the second drop is just as clear."
     ],
     "prerequisites": [
       "cramp-roll"
@@ -2624,7 +2624,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A clunk followed right away by a switching pullback: spank as the foot pushes off, then land on the other foot. Three sounds on 1&a, with the pullback carrying the accent.",
+    "description": "Clunk the right foot, then do a switching pullback off the left: spank the left as it leaves the floor and land on the right. Three sounds on 1&a, with the weight ending on the right foot.",
     "tips": [
       "Start pushing off for the pullback while the clunk is still finishing, so the pull doesn't arrive late.",
       "Think of the clunk and pullback as one motion rather than two separate steps."
@@ -2680,7 +2680,7 @@
       "slow": 60,
       "normal": 90
     },
-    "description": "Scuff, spring onto a single toe stand, then step down. Three quick sounds on &a1, with the toe stand as the accented middle sound.",
+    "description": "Scuff the right foot, spring onto a single toe stand on the left, then step down onto the right. Three quick sounds on &a1.",
     "tips": [
       "Drive the toe into the floor as fast as you can; it is the sound that usually lags.",
       "Keep the scuff low and close so you can get onto the toe tip right after it."
@@ -2744,7 +2744,7 @@
       "slow": 70,
       "normal": 120
     },
-    "description": "A roll built like the start of a cramp roll: two ball steps and a heel, then a step (or a stamp) in place of the last heel. Four sounds on 1&a2, with the second step and the heel accented.",
+    "description": "Step onto the ball of the right foot, then the left, drop the left heel, and finish with a right step (or a stamp). Four sounds on 1&a2. It starts like an alternating cramp roll, where the first heel also belongs to the second foot, but a step replaces the last heel.",
     "tips": [
       "Keep the heel sound strong; when it goes weak it also tends to drop early.",
       "Try both endings: the stamp version gives a heavier finish on 2."
@@ -2809,7 +2809,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A scuffle step followed by a dig toe and one more step: dig, spank, step, dig, toe, step. Six sounds in two even groups of three on 1&a2&a.",
+    "description": "A scuffle step on the right foot, a dig toe on the left, then one more step onto the right: dig, spank, step, dig, toe, step. Six sounds in two even groups of three on 1&a2&a.",
     "tips": [
       "Don't rush the scuffle step at the start, and don't leave a gap before the dig toe; the two halves should flow straight into each other.",
       "Count it as two triplets (1&a, 2&a) to keep all six sounds even."
@@ -2880,7 +2880,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A scuffle, a toe, a slap (brush and touch), then a heel: dig, spank, toe, brush, touch, heel. Six sounds on &a1&a2, landing the toe and the heel on the beats.",
+    "description": "Scuffle the right foot (dig, spank), drop the left toe, slap the right foot (brush and touch), then drop the left heel. Six sounds on &a1&a2, landing the toe and the heel on the beats.",
     "tips": [
       "The toe and the heel are the sounds that usually come late. Group each one with the two sounds just before it, as '&a1' and '&a2'.",
       "Keep the touch light, with no weight on it, so it stays a slap and not a flap."
@@ -2936,7 +2936,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Step, scuff, then a smack that takes weight like a step. Three sounds on 1&a, with the scuff and the smack both accented.",
+    "description": "Step onto the right foot, scuff the left, then smack the left down so it takes weight like a step. Three sounds on 1&a.",
     "tips": [
       "Keep the scuff low; lifting it high leaves you late for the smack.",
       "Land the smack with a straight leg so it gets its harder, more percussive sound."
@@ -3007,7 +3007,7 @@
       "slow": 70,
       "normal": 110
     },
-    "description": "A shuffle ball change with a heel drop added at the end: brush, spank, step, step, heel. Five sounds on a1&a2, so the heel lands on the beat.",
+    "description": "A shuffle ball change with a heel drop added at the end: shuffle the right foot, ball change (right, then left), then drop the left heel. Five sounds on a1&a2, so the heel lands on the beat.",
     "tips": [
       "Press down into the heel before you let it drop; that pressure keeps it from falling early.",
       "Keep the ball change tight under you so the heel still arrives right on 2."
@@ -3067,7 +3067,7 @@
       "slow": 60,
       "normal": 90
     },
-    "description": "Spank, rise onto a single toe stand, then flap down (brush and step). Four quick sounds leading into the beat, with the flap accented.",
+    "description": "Spank the right foot, rise onto a single toe stand on that same foot, then flap the left foot down (brush and step). Four quick sounds leading into the beat.",
     "tips": [
       "Really commit your weight onto the toe tip; if you don't, the flap sneaks in too early.",
       "Keep the brush of the flap short so the step still lands right on 1."
@@ -3124,7 +3124,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A toe tip, a hop, then a heel drop on the beat. Three sounds on &a1, with the hop and the heel both accented.",
+    "description": "Tap the right toe tip, hop on the left, then drop the left heel on the beat. Three sounds on &a1.",
     "tips": [
       "Keep the heel strong; a weak heel usually drops early and blurs into the hop.",
       "Land the hop on the ball with the heel lifted so the heel drop is its own sound."
@@ -3153,8 +3153,9 @@
     "category": "combination",
     "sounds": 3,
     "breakdown": [
-      "Scuffle",
-      "Toe"
+      "Dig",
+      "Spank",
+      "Toe (Flat)"
     ],
     "count": [
       {
@@ -3174,10 +3175,10 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "A scuffle (dig, spank) followed by a toe. Three sounds on 1&a, with the spank accented.",
+    "description": "Dig the right heel, spank the left foot, then drop the right toe. Three sounds on 1&a. It can sound like a scuffle followed by a toe, but the spank comes from the other foot.",
     "tips": [
       "Don't let the toe follow the spank too quickly; give it its own place on the 'a'.",
-      "Keep the spank clean and flexed so it doesn't scrape into the toe."
+      "Keep the left foot flexed on the spank so it catches the floor cleanly instead of scraping."
     ],
     "prerequisites": [
       "scuffle",
@@ -3285,7 +3286,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Jump and land with the feet together, drop a heel, then touch one foot out to the side. Three sounds on 1&a, with the heel accented.",
+    "description": "Jump and land with the feet together, drop the left heel, then touch the right foot out to the side. Three sounds on 1&a.",
     "tips": [
       "Keep the jump low; think of jumping down into the floor rather than up, especially as the tempo rises.",
       "Keep the touch weightless so you're ready to go straight into the next step."
@@ -3346,7 +3347,7 @@
       "slow": 60,
       "normal": 100
     },
-    "description": "Hop, shuffle, then finish with a step and a dig that land at the same moment on different feet, making one combined sound. Four sounds on 1&a2, with the hop and the final step/dig accented.",
+    "description": "Hop on the left, shuffle the right, then step onto the right while the left heel digs at the same moment, making one combined sound. Four sounds on 1&a2.",
     "tips": [
       "Lift the digging foot a little higher before it comes down; otherwise it hits the floor ahead of the step.",
       "Keep the shuffle small and quick after the hop so the combined landing falls right on 2."
