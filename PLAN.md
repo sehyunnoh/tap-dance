@@ -15,7 +15,7 @@
 | 1차 포함 기능 | 목록·필터·검색·상세 + **영상 느리게 보기 + 구간 반복(A-B 루프) + 좌우 반전(미러) + 메트로놈** |
 | 연습 기록 체크 | 1차에서는 **넣지 않음** (나중 후보) |
 | 배포 | **GitHub Pages**, 공개 저장소 `sehyunnoh/tap-dance` → `https://sehyunnoh.github.io/tap-dance/` |
-| 방문 통계 | **Umami Cloud (무료 Hobby 플랜)** — 방문자 수, 국가·지역, 유입 경로, 많이 본 스텝 |
+| 방문 통계 | **GoatCounter (무료)** — 방문자 수, 국가·지역, 유입 경로, 많이 본 스텝 (Umami 무료 플랜은 사이트 개수 제한에 걸려 변경, 2026-09-11) |
 | 와이어프레임 | [v1 디자인 캔버스](https://claude.ai/code/artifact/53487c13-14d1-4fa6-9431-9a667822722a) — 원본 파일은 `wireframes/` 폴더 (검토 중) |
 | 사용 방식 | 예전에 탭을 배웠던 사용자가 **Level 1부터 차근차근** 다시 연습 |
 
@@ -145,7 +145,7 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
    - 스텝마다 **추천 연습 BPM**을 데이터에 넣어 두고 "느리게 → 보통" 버튼으로 바로 설정
    - 화면을 옮겨도 계속 울리도록 (하단 고정 바)
 5. **모바일 우선 반응형**
-6. **방문 통계 (Umami)** 📊 — 자세한 내용은 7.3
+6. **방문 통계 (GoatCounter)** 📊 — 자세한 내용은 7.3
    - 기본 집계: 방문자 수, 페이지뷰, 국가·지역·도시, 유입 경로(어느 사이트에서 왔는지), 기기·브라우저·OS, 많이 본 페이지(스텝)
    - 추가 이벤트: 영상 재생, 속도 변경, 구간 반복, 미러, 메트로놈 사용, 검색어
      → "어떤 스텝이 인기인지", "연습 기능이 실제로 쓰이는지"를 볼 수 있음
@@ -187,7 +187,7 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 | 검색 | 간단한 자체 검색 (필요하면 Fuse.js) | 오타 허용 |
 | 저장 | localStorage | 연습 상태 등 개인 기록 |
 | 배포 | **GitHub Pages + GitHub Actions** | `main`에 push하면 자동으로 빌드·배포 |
-| 방문 통계 | **Umami Cloud** | 무료, 쿠키 없이 개인정보를 수집하지 않아 동의 배너가 필요 없음, 스크립트 한 줄로 설치 |
+| 방문 통계 | **GoatCounter** | 무료, 쿠키 없이 개인정보를 수집하지 않아 동의 배너가 필요 없음, 스크립트 한 줄로 설치 |
 
 ### 7.1 GitHub Pages 배포
 - 이 PC에 `gh`가 **`sehyunnoh`** 계정으로 로그인되어 있고, `repo`·`workflow` 권한이 있음 → 여기서 바로 저장소 생성·배포 가능
@@ -197,27 +197,21 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 - `.github/workflows/deploy.yml`: push → `npm ci` → `npm run build` → Pages 배포
 - 무료 계정은 GitHub Pages를 쓰려면 **공개(Public) 저장소**여야 함 → **공개로 확정**
 
-### 7.3 방문 통계 — Umami Cloud
-- **플랜**: Hobby (무료) — 월 100,000 이벤트, 사이트 3개, 데이터 6개월 보관 ([참고](https://freetier.co/directory/products/umami))
-  - 유료 Pro($20/월)는 월 100만 이벤트, 5년 보관. 개인 연습 사이트는 무료 플랜으로 충분
-- **대시보드**: `https://cloud.umami.is` 에 로그인하면 실시간 방문자, 국가 지도, 유입 경로, 페이지별 조회수를 볼 수 있음
-- **설치**: `index.html`에 스크립트 한 줄
-  ```html
-  <script defer src="https://cloud.umami.is/script.js"
-          data-website-id="<Umami에서 받은 ID>"
-          data-domains="sehyunnoh.github.io"></script>
-  ```
-  - `data-domains`: 실제 배포 주소에서만 집계 → 개발하면서 내 PC(localhost)에서 연 것은 통계에 안 섞임
-  - 해시 주소(`#/steps/maxie-ford`)도 기본 설정으로 수집되므로 **스텝별 조회수가 따로 집계됨**
-  - Website ID는 원래 페이지 소스에 공개되는 값이라 공개 저장소에 올려도 문제없음
-- **이벤트 추적**: `src/lib/analytics.ts`에 `track(이름, 데이터)` 함수를 두고, 플레이어·메트로놈·검색에서 호출
-  - 예: `video-play { step: "maxie-ford" }`, `loop-set`, `speed-change { rate: 0.5 }`, `mirror-on`, `metronome-start { bpm: 80 }`, `search { q: "pullback" }`
+### 7.3 방문 통계 — GoatCounter
+- **변경 이유**: Umami Cloud 무료 플랜의 사이트 개수 제한에 걸림 (이미 다른 사이트 등록됨) → GoatCounter로 변경 (2026-09-11)
+- **플랜**: goatcounter.com 무료 — 개인·소규모 사이트의 "적당한 사용량"은 무료
+- **대시보드**: `https://<코드>.goatcounter.com` 에 로그인하면 방문자, 국가, 유입 경로, 페이지별 조회수를 볼 수 있음
+- **설치**: `src/lib/analytics.ts`가 배포 주소(`sehyunnoh.github.io`)에서만 `https://gc.zgo.at/count.js`를 불러옴
+  - 코드는 GitHub 저장소 변수 `GOATCOUNTER_CODE` → 빌드 때 `VITE_GOATCOUNTER_CODE`로 들어감. 비어 있으면 통계 꺼짐
+  - 내 PC(localhost)에서 연 것은 집계되지 않음
+  - 해시 주소(`#/steps/maxie-ford`)는 기본 설정으로는 안 잡히므로, 라우터가 바뀔 때마다 `pageview()`로 직접 집계 (`App.tsx`의 `PageviewTracker`)
+  - 사이트 코드는 원래 페이지 소스에 공개되는 값이라 공개 저장소에 올려도 문제없음
+- **이벤트 추적**: `track(이름, 데이터)` — GoatCounter 이벤트는 이름과 제목만 있고 대시보드가 이름별로 묶으므로, 데이터를 이름에 붙여 보냄
+  - 예: `speed-change · rate=0.5`, `video-play · step=maxie-ford video=…`, `metronome-start · bpm=80`, `search · q=pullback results=3`
   - 스크립트가 차단되어도(광고 차단기 등) 사이트는 정상 동작하도록 처리
 - **사용자가 직접 할 일** (계정 가입이라 대신할 수 없음)
-  1. [cloud.umami.is](https://cloud.umami.is) 가입 (Hobby 플랜)
-  2. **Add website** → 이름 `Tap Dance`, 도메인 `sehyunnoh.github.io`
-  3. 생성된 **Website ID**(`xxxxxxxx-xxxx-…` 형태)를 알려주기
-  - ID를 받기 전에는 설정만 해 두고 비워 두었다가, 받으면 넣고 배포
+  1. [goatcounter.com/signup](https://www.goatcounter.com/signup) 가입 — 사이트 코드(예: `tapdance`) 정하기
+  2. 정한 **코드**를 알려주기 → 저장소 변수 `GOATCOUNTER_CODE`에 넣고 다시 배포
 
 ### 7.4 개발 PC 환경
 - Node v24, npm 11, git, gh (로그인됨) — 모두 설치되어 있음
@@ -242,7 +236,7 @@ tap-dance/
 │  │  ├─ PracticePlayer.tsx    # 속도 조절·A-B 루프·미러 플레이어
 │  │  └─ Metronome.tsx         # Web Audio 메트로놈
 │  ├─ lib/
-│  │  └─ analytics.ts          # Umami 이벤트 추적 (track 함수)
+│  │  └─ analytics.ts          # GoatCounter 페이지뷰·이벤트 추적 (pageview, track)
 │  ├─ pages/
 │  │  ├─ StepListPage.tsx
 │  │  └─ StepDetailPage.tsx
@@ -286,7 +280,7 @@ Level 1부터 연습하신다고 하셨으니 **Level 1을 가장 먼저 완성�
 
 | 단계 | 작업 | 결과물 |
 |---|---|---|
-| **1** | 프로젝트 세팅 + GitHub 저장소 생성 + 자동 배포 설정 + Umami 스크립트 연결 | 빈 사이트가 `sehyunnoh.github.io/tap-dance`에 뜨고 방문이 Umami에 집계됨 |
+| **1** | 프로젝트 세팅 + GitHub 저장소 생성 + 자동 배포 설정 + 방문 통계(GoatCounter) 연결 | 빈 사이트가 `sehyunnoh.github.io/tap-dance`에 뜨고 방문이 GoatCounter에 집계됨 |
 | **2** | 화면 개발: 목록·필터·검색·상세·연습용 플레이어(속도·A-B 루프·미러)·메트로놈 | 동작하는 사이트 틀 |
 | **3** | **Level 1 데이터** (설명·팁·영상 수집·검증) | Level 1 완성 → **배포, 확인 요청** |
 | **4** | Level 2~4 데이터 | 순서대로 추가·배포 |
@@ -308,7 +302,7 @@ Level 1부터 연습하신다고 하셨으니 **Level 1을 가장 먼저 완성�
 | 배포 | GitHub Pages, 공개 저장소 `sehyunnoh/tap-dance` |
 | 연습 기록 체크 | 1차 제외 |
 | 사용자 수준 | 예전에 배운 적 있음 → Level 1부터 다시 연습 |
-| 방문 통계 | Umami Cloud 무료 플랜 + 연습 기능 사용 이벤트 추적 |
+| 방문 통계 | ~~Umami Cloud~~ → GoatCounter 무료 (Umami 사이트 개수 제한) + 연습 기능 사용 이벤트 추적 |
 
 남은 질문 없음.
-**사용자가 준비할 것**: Umami Cloud 가입 후 Website ID 전달 (7.3 참고) — 개발 시작과 동시에 진행해도 됨.
+**사용자가 준비할 것**: GoatCounter 가입 후 사이트 코드 전달 (7.3 참고).

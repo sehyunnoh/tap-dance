@@ -1,6 +1,6 @@
 interface ImportMetaEnv {
-  /** Umami Cloud website id. Analytics stay off when it is not set. */
-  readonly VITE_UMAMI_WEBSITE_ID?: string
+  /** GoatCounter site code (the `CODE` in CODE.goatcounter.com). Analytics stay off when it is not set. */
+  readonly VITE_GOATCOUNTER_CODE?: string
 }
 
 interface ImportMeta {

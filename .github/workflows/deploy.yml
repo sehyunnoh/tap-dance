@@ -28,7 +28,7 @@ jobs:
       - run: npm run build
         env:
           # Set in Settings → Secrets and variables → Actions → Variables. Analytics stay off when empty.
-          VITE_UMAMI_WEBSITE_ID: ${{ vars.UMAMI_WEBSITE_ID }}
+          VITE_GOATCOUNTER_CODE: ${{ vars.GOATCOUNTER_CODE }}
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
