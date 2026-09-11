@@ -144,6 +144,9 @@ export function StepDetail({ step }: { step: Step }) {
                         </div>
                       ))}
                     </div>
+                    {step.count.some((c) => c.beat.includes('*')) && (
+                      <span className="text-xs text-muted">* an extra quick sound squeezed in just before the next count</span>
+                    )}
                   </div>
                 )}
               </section>
