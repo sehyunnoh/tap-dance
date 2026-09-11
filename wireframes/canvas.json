@@ -1,0 +1,20 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "1. Step list (phone)", "x": 0, "y": 0, "w": 390, "h": 1640 },
+    { "file": "FilterSheet.dc.html", "title": "2. Filters", "x": 470, "y": 0, "w": 390, "h": 844 },
+    { "file": "StepDetail.dc.html", "title": "3. Step detail (phone)", "x": 940, "y": 0, "w": 390, "h": 2140 },
+    { "file": "PracticePlayer.dc.html", "title": "4. Practice mode", "x": 1410, "y": 0, "w": 390, "h": 844 },
+    { "file": "Metronome.dc.html", "title": "5. Metronome (expanded)", "x": 1880, "y": 0, "w": 390, "h": 844 },
+    { "file": "Desktop.dc.html", "title": "6. Desktop (list + detail)", "x": 2350, "y": 0, "w": 1440, "h": 1000 }
+  ],
+  "annotations": [
+    { "id": "intro", "x": 0, "y": -330, "w": 760, "text": "Wireframe v1: layout and structure only.\nVisual design (colors, fonts, icons) comes after this structure is approved. The only colors used so far are the 7 level colors (green, blue, purple, yellow, orange, red, black).\nStep names and per-level counts come from the source syllabus. Videos, counts, suggested BPM and loop times are placeholders.\nExample step: Maxie Ford (Level 1)." },
+    { "id": "note-list", "x": 0, "y": 1700, "w": 390, "text": "1. Step list\n- Top: search (names + aliases) and Filter button\n- 1 to 7: jump straight to a level\n- Each level collapses/expands; only Level 1 is open at first\n- Essential steps first, optional steps listed separately below\n- The metronome bar stays pinned to the bottom of every screen" },
+    { "id": "note-filter", "x": 470, "y": 904, "w": 390, "text": "2. Filters (bottom sheet)\n- Level and category: pick any number\n- Essential / Optional: pick one of three\n- The button shows how many steps match" },
+    { "id": "note-detail", "x": 940, "y": 2200, "w": 390, "text": "3. Step detail (scrolls)\n- Video sits right under the title so you can practice right away\n- Speed, loop and mirror controls under the video\n- Description, then breakdown and count, tips, learn-first and next steps\n- Bottom: previous / next step within the level" },
+    { "id": "note-player", "x": 1410, "y": 904, "w": 390, "text": "4. Practice mode\n- Opens from 'Practice mode' on the detail screen\n- The A–B loop is marked on the timeline (shaded)\n- Big buttons so they're easy to hit mid-practice\n- Mirror flips the video like a mirror" },
+    { "id": "note-metronome", "x": 1880, "y": 904, "w": 390, "text": "5. Metronome\n- Tap the bottom bar to expand; keeps ticking when collapsed\n- BPM: slider, ±5, tap tempo (tap along and it works out the BPM)\n- Suggested tempos per step (slow / normal)\n- Works while a video is playing" },
+    { "id": "note-desktop", "x": 2350, "y": 1060, "w": 600, "text": "6. Desktop\n- Left: list (search, filters, levels). Right: selected step\n- Clicking a step only changes the right side, so flipping through steps is quick\n- The metronome sits fully expanded along the bottom right" }
+  ],
+  "launch": { "view": "canvas" }
+}

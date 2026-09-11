@@ -1,0 +1,355 @@
+[
+  {
+    "id": "hop-shuffle",
+    "name": "Hop Shuffle",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shuffle-heel",
+    "name": "Shuffle Heel",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuff",
+    "name": "Scuff",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "double-buffalo",
+    "name": "Double Buffalo",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-cramp-roll",
+    "name": "Double Cramp Roll",
+    "aliases": [
+      "Flap Cramp Roll"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "double-irish-v1",
+    "name": "Double Irish (Version 1)",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "irish-flap",
+    "name": "Irish Flap",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-maxie-ford",
+    "name": "Double Maxie Ford",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-waltz-clog",
+    "name": "Double Waltz Clog",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "alexander",
+    "name": "Alexander",
+    "aliases": [
+      "Broadway",
+      "Shirley Temple",
+      "Manhattan"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "back-essence",
+    "name": "Back Essence",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "flap-heel-heel",
+    "name": "Flap Heel Heel",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "bombershay-modern",
+    "name": "Bombershay Modern",
+    "aliases": [
+      "Bombershe",
+      "Toe Clip"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "drawback",
+    "name": "Drawback",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "pullback",
+    "name": "Pullback",
+    "aliases": [
+      "Pull",
+      "Grab Off",
+      "Pick-Up"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "scuffle",
+    "name": "Scuffle",
+    "aliases": [
+      "Dig Brush",
+      "Dig Spank",
+      "Paddle"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuffle-step",
+    "name": "Scuffle Step",
+    "aliases": [
+      "Paddles"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuffle-step-heel",
+    "name": "Scuffle Step Heel",
+    "aliases": [
+      "Paddle and Roll",
+      "Paradiddle"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuffle-ball-change",
+    "name": "Scuffle Ball Change",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "buck-single-time-step",
+    "name": "Buck Single Time Step",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "traditional-single-time-step",
+    "name": "Traditional Single Time Step",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "buffalo-turn",
+    "name": "Buffalo Turn",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "step-irish-turn",
+    "name": "Step Irish Turn",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "step-toe-hop-turn",
+    "name": "Step Toe Hop Turn",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "in-and-out-pullback",
+    "name": "In and Out Pullback",
+    "aliases": [
+      "Jumping Jack Pullback"
+    ],
+    "level": 2,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "toe-stand",
+    "name": "Toe Stand",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "slap",
+    "name": "Slap",
+    "aliases": [],
+    "level": 2,
+    "essential": true,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "bombershay-broadway",
+    "name": "Bombershay Broadway",
+    "aliases": [
+      "Bombershe"
+    ],
+    "level": 2,
+    "essential": false,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "clicks",
+    "name": "Clicks",
+    "aliases": [
+      "Toe Clicks",
+      "Heel Clicks"
+    ],
+    "level": 2,
+    "essential": false,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "crossing-pullback",
+    "name": "Crossing Pullback",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "heel-stand-turn",
+    "name": "Heel Stand Turn",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "jump-click",
+    "name": "Jump Click",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "leap-heel",
+    "name": "Leap Heel",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "smack",
+    "name": "Smack",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "slam",
+    "name": "Slam",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "travel-step",
+    "name": "Travel Step",
+    "aliases": [],
+    "level": 2,
+    "essential": false,
+    "category": "classic",
+    "videos": []
+  }
+]

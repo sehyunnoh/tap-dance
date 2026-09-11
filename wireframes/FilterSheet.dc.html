@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&amp;family=Nunito:wght@400;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #fbfaf7; color: #262521; font-family: "Nunito", system-ui, sans-serif; }
+    a { color: #262521; } a:hover { color: #6d6a63; }
+    .hand { font-family: "Gaegu", "Nunito", cursive; }
+    .opt { display: flex; align-items: center; justify-content: center; gap: 6px; height: 44px; padding: 0 14px; border: 1.5px solid #262521; border-radius: 10px; background: #ffffff; font-size: 14px; box-sizing: border-box; white-space: nowrap; }
+    .on { background: #262521; color: #fbfaf7; }
+    .label { font-size: 13px; color: #6d6a63; letter-spacing: 0.02em; }
+    .ghost { background: #d9d6ce; border-radius: 6px; }
+  </style>
+</helmet>
+<div style="position: relative; width: 390px; height: 844px; display: flex; flex-direction: column; background: #fbfaf7; overflow: hidden;">
+
+  <div style="display: flex; flex-direction: column; gap: 14px; padding: 16px;">
+    <div class="ghost" style="width: 160px; height: 22px;"></div>
+    <div style="display: flex; gap: 8px;"><div class="ghost" style="flex-grow: 1; height: 44px;"></div><div class="ghost" style="width: 80px; height: 44px;"></div></div>
+    <div class="ghost" style="height: 44px;"></div>
+    <div class="ghost" style="width: 220px; height: 18px;"></div>
+    <div class="ghost" style="width: 260px; height: 18px;"></div>
+  </div>
+
+  <div style="position: absolute; inset: 0; background: rgba(38, 37, 33, 0.45);"></div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; gap: 20px; padding: 10px 16px 20px; background: #fbfaf7; border-top: 1.5px solid #262521; border-radius: 18px 18px 0 0; box-sizing: border-box;">
+    <div style="align-self: center; width: 40px; height: 4px; border-radius: 2px; background: #b9b5ab;"></div>
+
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+      <div class="hand" style="font-size: 26px; font-weight: 700;">Filters</div>
+      <div style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#262521" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="label">Level (select any)</div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;">
+        <div class="opt on"><span style="width: 10px; height: 10px; border-radius: 5px; background: #3f9d5a;"></span>Lv 1</div>
+        <div class="opt on"><span style="width: 10px; height: 10px; border-radius: 5px; background: #3b78c9;"></span>Lv 2</div>
+        <div class="opt"><span style="width: 10px; height: 10px; border-radius: 5px; background: #8a5bc7;"></span>Lv 3</div>
+        <div class="opt"><span style="width: 10px; height: 10px; border-radius: 5px; background: #d9a91f;"></span>Lv 4</div>
+        <div class="opt"><span style="width: 10px; height: 10px; border-radius: 5px; background: #e07b2e;"></span>Lv 5</div>
+        <div class="opt"><span style="width: 10px; height: 10px; border-radius: 5px; background: #d0433a;"></span>Lv 6</div>
+        <div class="opt"><span style="width: 10px; height: 10px; border-radius: 5px; background: #262521;"></span>Lv 7</div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="label">Category (select any)</div>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <div class="opt on">Basic Sounds</div>
+        <div class="opt on">Combinations</div>
+        <div class="opt">Rolls &amp; Riffs</div>
+        <div class="opt">Time Steps</div>
+        <div class="opt">Air Steps</div>
+        <div class="opt">Turns</div>
+        <div class="opt">Classic Steps &amp; Routines</div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="label">Essential / Optional</div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1.5px solid #262521; border-radius: 10px; overflow: hidden;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 44px; font-size: 14px;">All</div>
+        <div style="display: flex; align-items: center; justify-content: center; height: 44px; font-size: 14px; background: #262521; color: #fbfaf7;">Essential</div>
+        <div style="display: flex; align-items: center; justify-content: center; height: 44px; font-size: 14px; border-left: 1.5px solid #262521;">Optional</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 8px; padding-top: 6px;">
+      <div class="opt" style="flex-grow: 1; height: 52px;">Reset</div>
+      <div class="opt on" style="flex-grow: 2; height: 52px; font-size: 16px;">Show 32 steps</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

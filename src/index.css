@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", system-ui, sans-serif;
+  --font-hand: "Gaegu", "Nunito", cursive;
+
+  --color-paper: #fbfaf7;
+  --color-card: #ffffff;
+  --color-ink: #262521;
+  --color-ink-2: #4a4843;
+  --color-muted: #6d6a63;
+  --color-faint: #8d8a83;
+  --color-line: #e2dfd8;
+  --color-line-2: #c9c6be;
+  --color-chip: #b9b5ab;
+  --color-fill: #ecebe6;
+  --color-soft: #f0eee8;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}

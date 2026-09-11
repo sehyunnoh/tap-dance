@@ -1,0 +1,470 @@
+[
+  {
+    "id": "hop-shuffle-hop-scuffle-hop-riffle-hop-stomp-spank",
+    "name": "Hop Shuffle Hop Scuffle Hop Riffle Hop Stomp Spank",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "step-riff-brush-heel",
+    "name": "Step Riff Brush Heel",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "toe-dig-bombershay",
+    "name": "Toe Dig Bombershay",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "drawback-flam",
+    "name": "Drawback Flam",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "switching-pullback-flap-heel-toe",
+    "name": "Switching Pullback Flap Heel Toe",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "treadmill-heel",
+    "name": "Treadmill Heel",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "buffalo-wing",
+    "name": "Buffalo Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "maxie-ford-wing",
+    "name": "Maxie Ford Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "double-waltz-clog-wing",
+    "name": "Double Waltz Clog Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "frap",
+    "name": "Frap",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "frap-cramp-roll",
+    "name": "Frap Cramp Roll",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "scuffle-pullback",
+    "name": "Scuffle Pullback",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "buffalo-scuffle",
+    "name": "Buffalo Scuffle",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "irish-pullback-heel-flap-heel",
+    "name": "Irish Pullback Heel Flap Heel",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "single-pullback-toe",
+    "name": "Single Pullback Toe",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "irish-pullback-toe-flap",
+    "name": "Irish Pullback Toe Flap",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "hot-toe",
+    "name": "Hot Toe",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "waltz-clog-scuffle",
+    "name": "Waltz Clog Scuffle",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "scuff-front",
+    "name": "Scuff Front",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-scuff-front",
+    "name": "Double Scuff Front",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "frapback",
+    "name": "Frapback",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "cincinnati-flam",
+    "name": "Cincinnati Flam",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "joe-toe-pull",
+    "name": "Joe Toe Pull",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "pullback-dig-toe",
+    "name": "Pullback Dig Toe",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "3-sound-pullback",
+    "name": "3 Sound Pullback",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "pullback-shuffle-step",
+    "name": "Pullback Shuffle Step",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "single-pullback-opposite-toe",
+    "name": "Single Pullback Opposite Toe",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "switching-toe-pullback",
+    "name": "Switching Toe Pullback",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "pendulum-wing",
+    "name": "Pendulum Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "scissor-wing",
+    "name": "Scissor Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "five-count-wing",
+    "name": "Five Count Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "five-count-single-wing",
+    "name": "Five Count Single Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "heel-flam",
+    "name": "Heel Flam",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "jump-flam",
+    "name": "Jump Flam",
+    "aliases": [],
+    "level": 7,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "baloney",
+    "name": "Baloney",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "brittanyshay",
+    "name": "Brittanyshay",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "broken-riff",
+    "name": "Broken Riff",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "clickety-clank",
+    "name": "Clickety Clank",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "click-pullback",
+    "name": "Click Pullback",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "click-wing",
+    "name": "Click Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "drawman",
+    "name": "Drawman",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "faluffalo",
+    "name": "Faluffalo",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "maddalo",
+    "name": "Maddalo",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "riff-raff",
+    "name": "Riff Raff",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "rooster",
+    "name": "Rooster",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "rorymeister",
+    "name": "Rorymeister",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "ruffle",
+    "name": "Ruffle",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "sh-sh-sh-shuffle",
+    "name": "Sh-sh-sh-shuffle",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "sloppy-joe",
+    "name": "Sloppy Joe",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "teeler",
+    "name": "Teeler",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "toe-stand-wing",
+    "name": "Toe Stand Wing",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "toro",
+    "name": "Toro",
+    "aliases": [],
+    "level": 7,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  }
+]

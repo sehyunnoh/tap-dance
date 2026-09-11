@@ -1,0 +1,477 @@
+[
+  {
+    "id": "shuffle-dig-toe",
+    "name": "Shuffle Dig Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shuffle-toe-step",
+    "name": "Shuffle Toe Step",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "riffle-step-heel",
+    "name": "Riffle Step Heel",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "double-buffalo-toe",
+    "name": "Double Buffalo Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-flap-cramp-roll",
+    "name": "Double Flap Cramp Roll",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "triple-double-cramp-roll",
+    "name": "Triple Double Cramp Roll",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "irish-pullback-flap",
+    "name": "Irish Pullback Flap",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "irish-pullback-flap-heel",
+    "name": "Irish Pullback Flap Heel",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "maxie-ford-toe",
+    "name": "Maxie Ford Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-maxie-ford-toe",
+    "name": "Double Maxie Ford Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "buffalo-pullback",
+    "name": "Buffalo Pullback",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "double-heel-stand",
+    "name": "Double Heel Stand",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "shiggy-bop",
+    "name": "Shiggy Bop",
+    "aliases": [
+      "Shovel",
+      "Heel Slide"
+    ],
+    "level": 5,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "crossing-drawback",
+    "name": "Crossing Drawback",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "double-drawback",
+    "name": "Double Drawback",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "triple-drawback",
+    "name": "Triple Drawback",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "scuff-heel-step",
+    "name": "Scuff Heel Step",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "switching-pullback-toe",
+    "name": "Switching Pullback Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "treadmill",
+    "name": "Treadmill",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "pullback-toe",
+    "name": "Pullback Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "dwing",
+    "name": "Dwing",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "swing",
+    "name": "Swing",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "twing",
+    "name": "Twing",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "single-wing-toe",
+    "name": "Single Wing Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "double-wing",
+    "name": "Double Wing",
+    "aliases": [
+      "Separated Double Wing",
+      "Staggered Double Wing",
+      "Alternating Double Wing"
+    ],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "switching-wing",
+    "name": "Switching Wing",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "traveling-pendulum-shuffle",
+    "name": "Traveling Pendulum Shuffle",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shuffle-flap",
+    "name": "Shuffle Flap",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shuffle-toe-toe-step",
+    "name": "Shuffle Toe Toe Step",
+    "aliases": [],
+    "level": 5,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "alexander-clunk",
+    "name": "Alexander Clunk",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "backwards-wing",
+    "name": "Backwards Wing",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "click-buffalo",
+    "name": "Click Buffalo",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "double-cincinnati",
+    "name": "Double Cincinnati",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "drawback-heel",
+    "name": "Drawback Heel",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "dub-dub-dig-toe",
+    "name": "Dub Dub Dig Toe",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "heelo",
+    "name": "Heelo",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "jordan-pullback",
+    "name": "Jordan Pullback",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "jumper",
+    "name": "Jumper",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "lopsided-cramp-roll",
+    "name": "Lopsided Cramp Roll",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "maddie-mill",
+    "name": "Maddie Mill",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "radiohead",
+    "name": "Radiohead",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "rod-roll",
+    "name": "Rod Roll",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "scuffaloeo",
+    "name": "Scuffaloeo",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuffle-toe-slap-heel",
+    "name": "Scuffle Toe Slap Heel",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shayberbom",
+    "name": "Shayberbom",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "shuffle-ball-change-heel",
+    "name": "Shuffle Ball Change Heel",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "spat",
+    "name": "Spat",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "spear",
+    "name": "Spear",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "spiel",
+    "name": "Spiel",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "toe-stand-shuffle-step",
+    "name": "Toe Stand Shuffle Step",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "tori",
+    "name": "Tori",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "twister",
+    "name": "Twister",
+    "aliases": [],
+    "level": 5,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  }
+]

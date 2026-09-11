@@ -1,0 +1,276 @@
+[
+  {
+    "id": "shuffle-step-heel",
+    "name": "Shuffle Step Heel",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-shuffle",
+    "name": "Double Shuffle",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-irish-v2",
+    "name": "Double Irish (Version 2)",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "alternating-cramp-roll",
+    "name": "Alternating Cramp Roll",
+    "aliases": [
+      "Around the World Cramp Roll",
+      "Trading Cramp Roll"
+    ],
+    "level": 3,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "pendulum-shuffle",
+    "name": "Pendulum Shuffle",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-scuffle",
+    "name": "Double Scuffle",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-scuffle-step-heel",
+    "name": "Double Scuffle Step Heel",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-back-essence",
+    "name": "Double Back Essence",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "traditional-double-time-step",
+    "name": "Traditional Double Time Step",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "traditional-triple-time-step",
+    "name": "Traditional Triple Time Step",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "buck-double-time-step",
+    "name": "Buck Double Time Step",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "buck-triple-time-step",
+    "name": "Buck Triple Time Step",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "time-steps",
+    "videos": []
+  },
+  {
+    "id": "cincinnati",
+    "name": "Cincinnati",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "single-pullback",
+    "name": "Single Pullback",
+    "aliases": [
+      "One-Foot Pullback"
+    ],
+    "level": 3,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "trenches",
+    "name": "Trenches",
+    "aliases": [
+      "Hoofer Trenches",
+      "Broadway Trenches"
+    ],
+    "level": 3,
+    "essential": true,
+    "category": "classic",
+    "videos": []
+  },
+  {
+    "id": "riff",
+    "name": "Riff",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "3-beat-riff-walk",
+    "name": "3-Beat Riff Walk",
+    "aliases": [
+      "Slam",
+      "Flam",
+      "Slurp",
+      "Third"
+    ],
+    "level": 3,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "4-beat-riff-walk",
+    "name": "4-Beat Riff Walk",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "5-beat-riff-walk",
+    "name": "5-Beat Riff Walk",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "rolls-riffs",
+    "videos": []
+  },
+  {
+    "id": "maxie-ford-turn",
+    "name": "Maxie Ford Turn",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "stamp-cramp-roll-turn",
+    "name": "Stamp Cramp Roll Turn",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "turns",
+    "videos": []
+  },
+  {
+    "id": "double-pullback",
+    "name": "Double Pullback",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "wings",
+    "name": "Wings",
+    "aliases": [],
+    "level": 3,
+    "essential": true,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "boomerang",
+    "name": "Boomerang",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "double-flap",
+    "name": "Double Flap",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "scuff-dig-ball-change",
+    "name": "Scuff Dig Ball Change",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  },
+  {
+    "id": "single-heel-stand",
+    "name": "Single Heel Stand",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "basic",
+    "videos": []
+  },
+  {
+    "id": "skipping-pullback",
+    "name": "Skipping Pullback",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "air",
+    "videos": []
+  },
+  {
+    "id": "step-heel-heel",
+    "name": "Step Heel Heel",
+    "aliases": [],
+    "level": 3,
+    "essential": false,
+    "category": "combination",
+    "videos": []
+  }
+]
