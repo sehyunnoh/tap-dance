@@ -1,6 +1,9 @@
 import { LEVELS } from '../data/meta'
+import { stepsInLevel } from '../data/steps'
+import { progressOf } from '../lib/practice'
 import { groupKey } from '../lib/search'
 import { useListState } from '../state/listState'
+import { usePractice } from '../state/practiceState'
 import type { Level, Step } from '../types'
 import { ChevronDownIcon, ChevronUpIcon } from './icons'
 import { StepRow } from './StepRow'
@@ -22,6 +25,10 @@ export function LevelSection({ level, steps, showAll, selectedId }: Props) {
   const open = openLevels.has(level)
   const essential = steps.filter((s) => s.essential)
   const optional = steps.filter((s) => !s.essential)
+  // Progress covers the whole level, even while the list is filtered.
+  const progress = progressOf(stepsInLevel(level), usePractice().statuses)
+  const started = progress.learned + progress.learning > 0
+  const percent = (n: number) => `${(n / progress.total) * 100}%`
 
   const group = (list: Step[], isEssential: boolean) => {
     const key = groupKey(level, isEssential)
@@ -66,7 +73,14 @@ export function LevelSection({ level, steps, showAll, selectedId }: Props) {
             </span>
             <span className="text-[13px] font-normal text-muted">
               {essential.length} essential · {optional.length} optional
+              {started && ` · ${progress.learned}/${progress.total} learned`}
             </span>
+            {started && (
+              <span aria-hidden="true" className="mt-1 flex h-1.5 w-full max-w-[200px] overflow-hidden rounded-full bg-fill">
+                <span className="bg-ink" style={{ width: percent(progress.learned) }} />
+                <span className="bg-chip" style={{ width: percent(progress.learning) }} />
+              </span>
+            )}
           </span>
           {open ? <ChevronUpIcon size={22} /> : <ChevronDownIcon size={22} />}
         </button>

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Step } from '../types'
-import { activeFilterCount, EMPTY_FILTERS, filterSteps, isFiltering, matchesQuery } from './search'
+import { activeFilterCount, EMPTY_FILTERS, filterSteps, isFiltering, matchesQuery, type Filters } from './search'
 
 const step = (over: Partial<Step>): Step => ({
   id: 'x',
@@ -46,6 +46,15 @@ describe('filterSteps', () => {
     expect(filterSteps(all, { ...EMPTY_FILTERS, essential: 'optional' }).map((s) => s.id)).toEqual(['clunk'])
     expect(filterSteps(all, { ...EMPTY_FILTERS, levels: [1], essential: 'essential' }).map((s) => s.id)).toEqual(['shuffle'])
   })
+
+  it('filters by practice status', () => {
+    const statuses = { pullback: 'learned', shuffle: 'learning' } as const
+    const ids = (progress: Filters['progress']) => filterSteps(all, { ...EMPTY_FILTERS, progress }, statuses).map((s) => s.id)
+    expect(ids('learned')).toEqual(['pullback'])
+    expect(ids('learning')).toEqual(['shuffle'])
+    expect(ids('not-started')).toEqual(['clunk'])
+    expect(ids('all')).toEqual(['pullback', 'shuffle', 'clunk'])
+  })
 })
 
 describe('filter state helpers', () => {
@@ -53,6 +62,7 @@ describe('filter state helpers', () => {
     expect(activeFilterCount(EMPTY_FILTERS)).toBe(0)
     expect(isFiltering(EMPTY_FILTERS)).toBe(false)
     expect(activeFilterCount({ ...EMPTY_FILTERS, levels: [1, 2], essential: 'essential' })).toBe(3)
+    expect(activeFilterCount({ ...EMPTY_FILTERS, progress: 'learning' })).toBe(1)
     expect(isFiltering({ ...EMPTY_FILTERS, query: 'flap' })).toBe(true)
   })
 })

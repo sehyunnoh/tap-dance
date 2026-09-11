@@ -8,13 +8,15 @@ export const BUTTON =
 
 export const BUTTON_ON = 'bg-ink text-paper'
 
-export function Tag({ children, variant = 'plain' }: { children: ReactNode; variant?: 'plain' | 'dashed' | 'muted' }) {
+export function Tag({ children, variant = 'plain' }: { children: ReactNode; variant?: 'plain' | 'dashed' | 'muted' | 'strong' }) {
   const look =
     variant === 'dashed'
       ? 'border-dashed border-chip text-muted'
       : variant === 'muted'
         ? 'border-line text-faint'
-        : 'border-chip text-ink-2'
+        : variant === 'strong'
+          ? 'border-ink font-bold text-ink'
+          : 'border-chip text-ink-2'
   return (
     <span className={`inline-flex h-6 items-center gap-1.5 whitespace-nowrap rounded-md border-[1.2px] bg-card px-2 text-xs ${look}`}>
       {children}

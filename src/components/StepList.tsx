@@ -1,19 +1,25 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router'
 import { LEVEL_NUMBERS, LEVELS } from '../data/meta'
 import { STEP_BY_ID, STEPS, stepsInLevel } from '../data/steps'
 import { track } from '../lib/analytics'
+import { nextToPractice } from '../lib/practice'
 import { activeFilterCount, EMPTY_FILTERS, filterSteps, groupKey, isFiltering } from '../lib/search'
 import { useListState } from '../state/listState'
+import { usePractice } from '../state/practiceState'
 import type { Level } from '../types'
 import { FilterSheet } from './FilterSheet'
-import { FilterIcon, SearchIcon } from './icons'
+import { ChevronRightIcon, FilterIcon, SearchIcon } from './icons'
 import { GROUP_LIMIT, LevelSection } from './LevelSection'
 
 export function StepList({ selectedId }: { selectedId?: string }) {
   const { filters, setFilters, setQuery, openLevel, expandGroup } = useListState()
+  const { statuses } = usePractice()
   const [sheetOpen, setSheetOpen] = useState(false)
 
-  const filtered = useMemo(() => filterSteps(STEPS, filters), [filters])
+  const filtered = useMemo(() => filterSteps(STEPS, filters, statuses), [filters, statuses])
+  // Offered once the user has marked anything, so returning to practice is one tap.
+  const continueStep = Object.keys(statuses).length > 0 ? nextToPractice(STEPS, statuses) : undefined
   const filtering = isFiltering(filters)
   const filterCount = activeFilterCount(filters)
   const essentialCount = filtered.filter((s) => s.essential).length
@@ -70,6 +76,19 @@ export function StepList({ selectedId }: { selectedId?: string }) {
           Filter{filterCount > 0 && ` · ${filterCount}`}
         </button>
       </div>
+
+      {continueStep && (
+        <div className="px-4 pb-1 pt-1 lg:px-5">
+          <Link
+            to={`/steps/${continueStep.id}`}
+            className="flex h-12 items-center gap-2 rounded-[10px] border-[1.5px] border-ink bg-ink px-3 text-paper"
+          >
+            <span className="text-[13px] text-line-2">Continue · Lv {continueStep.level}</span>
+            <span className="flex-1 truncate font-hand text-xl font-bold">{continueStep.name}</span>
+            <ChevronRightIcon />
+          </Link>
+        </div>
+      )}
 
       <div className="flex flex-col gap-1.5 px-4 pb-3 pt-1.5 lg:px-5">
         <span className="text-xs tracking-wide text-muted">Jump to level</span>

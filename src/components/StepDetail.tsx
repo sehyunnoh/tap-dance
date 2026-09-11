@@ -6,6 +6,7 @@ import { soundsLabel } from '../lib/format'
 import { useMetronome } from '../state/metronomeState'
 import type { Step } from '../types'
 import { ChevronLeftIcon, ChevronRightIcon, ExternalIcon } from './icons'
+import { PracticeControl } from './PracticeControl'
 import { LevelDot, SectionTitle, StepChip, Tag } from './ui'
 import { VideoPanel } from './VideoPanel'
 
@@ -66,6 +67,9 @@ export function StepDetail({ step }: { step: Step }) {
               <Tag variant={step.essential ? 'plain' : 'dashed'}>{step.essential ? 'Essential' : 'Optional'}</Tag>
               <Tag>{categoryLabel(step.category)}</Tag>
               {step.sounds !== undefined && <Tag>{soundsLabel(step.sounds)}</Tag>}
+            </div>
+            <div className="pt-2">
+              <PracticeControl stepId={step.id} />
             </div>
           </div>
           <nav aria-label="Steps in this level" className="hidden shrink-0 gap-2 lg:flex">

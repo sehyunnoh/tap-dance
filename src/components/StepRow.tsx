@@ -3,12 +3,14 @@ import { Link } from 'react-router'
 import { categoryLabel } from '../data/meta'
 import { hasDetails } from '../data/steps'
 import { soundsLabel } from '../lib/format'
+import { usePractice } from '../state/practiceState'
 import type { Step } from '../types'
-import { ChevronRightIcon } from './icons'
+import { CheckIcon, ChevronRightIcon, HalfCircleIcon } from './icons'
 import { Tag } from './ui'
 
 export function StepRow({ step, selected }: { step: Step; selected: boolean }) {
   const ref = useRef<HTMLAnchorElement>(null)
+  const status = usePractice().statuses[step.id]
 
   useEffect(() => {
     if (selected) ref.current?.scrollIntoView({ block: 'nearest' })
@@ -33,6 +35,18 @@ export function StepRow({ step, selected }: { step: Step; selected: boolean }) {
           )}
         </div>
         <div className="flex flex-wrap gap-1.5">
+          {status === 'learned' && (
+            <Tag variant="strong">
+              <CheckIcon size={12} />
+              Learned
+            </Tag>
+          )}
+          {status === 'learning' && (
+            <Tag variant="strong">
+              <HalfCircleIcon size={12} />
+              Learning
+            </Tag>
+          )}
           {!step.essential && <Tag variant="dashed">Optional</Tag>}
           <Tag>{categoryLabel(step.category)}</Tag>
           {step.sounds !== undefined && <Tag>{soundsLabel(step.sounds)}</Tag>}

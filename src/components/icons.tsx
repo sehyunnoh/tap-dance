@@ -114,6 +114,20 @@ export const ExternalIcon = (p: IconProps) => (
   </Icon>
 )
 
+export const CheckIcon = (p: IconProps) => (
+  <Icon strokeWidth={2.5} {...p}>
+    <path d="M5 12.5l4.5 4.5L19 7.5" />
+  </Icon>
+)
+
+/** Half-filled circle: a step that is being learned. */
+export const HalfCircleIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <circle cx="12" cy="12" r="8" />
+    <path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor" stroke="none" />
+  </Icon>
+)
+
 export const ExpandIcon = (p: IconProps) => (
   <Icon {...p}>
     <path d="M4 9V4h5M20 15v5h-5M4 4l6 6M20 20l-6-6" />

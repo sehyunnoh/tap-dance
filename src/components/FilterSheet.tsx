@@ -2,8 +2,9 @@ import { useEffect, useMemo, useState } from 'react'
 import { CATEGORIES, LEVEL_NUMBERS } from '../data/meta'
 import { STEPS } from '../data/steps'
 import { track } from '../lib/analytics'
-import { EMPTY_FILTERS, filterSteps, type EssentialMode, type Filters } from '../lib/search'
+import { EMPTY_FILTERS, filterSteps, type EssentialMode, type Filters, type ProgressMode } from '../lib/search'
 import { useListState } from '../state/listState'
+import { usePractice } from '../state/practiceState'
 import { CloseIcon } from './icons'
 import { BUTTON, BUTTON_ON, LevelDot } from './ui'
 
@@ -13,14 +14,22 @@ const ESSENTIAL_OPTIONS: { id: EssentialMode; label: string }[] = [
   { id: 'optional', label: 'Optional' },
 ]
 
+const PROGRESS_OPTIONS: { id: ProgressMode; label: string }[] = [
+  { id: 'all', label: 'All' },
+  { id: 'not-started', label: 'Not started' },
+  { id: 'learning', label: 'Learning' },
+  { id: 'learned', label: 'Learned' },
+]
+
 function toggled<T>(list: T[], value: T): T[] {
   return list.includes(value) ? list.filter((v) => v !== value) : [...list, value]
 }
 
 export function FilterSheet({ onClose }: { onClose: () => void }) {
   const { filters, setFilters } = useListState()
+  const { statuses } = usePractice()
   const [draft, setDraft] = useState<Filters>(filters)
-  const count = useMemo(() => filterSteps(STEPS, draft).length, [draft])
+  const count = useMemo(() => filterSteps(STEPS, draft, statuses).length, [draft, statuses])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -41,6 +50,7 @@ export function FilterSheet({ onClose }: { onClose: () => void }) {
       levels: draft.levels.join(',') || 'all',
       categories: draft.categories.join(',') || 'all',
       essential: draft.essential,
+      progress: draft.progress,
     })
     onClose()
   }
@@ -110,6 +120,23 @@ export function FilterSheet({ onClose }: { onClose: () => void }) {
                 aria-pressed={draft.essential === o.id}
                 onClick={() => setDraft({ ...draft, essential: o.id })}
                 className={`h-11 text-sm ${i > 0 ? 'border-l-[1.5px] border-ink' : ''} ${draft.essential === o.id ? BUTTON_ON : ''}`}
+              >
+                {o.label}
+              </button>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="m-0 flex flex-col border-0 p-0">
+          <legend className="mb-2.5 p-0 text-[13px] tracking-wide text-muted">My progress</legend>
+          <div className="grid grid-cols-4 overflow-hidden rounded-[10px] border-[1.5px] border-ink bg-card">
+            {PROGRESS_OPTIONS.map((o, i) => (
+              <button
+                key={o.id}
+                type="button"
+                aria-pressed={draft.progress === o.id}
+                onClick={() => setDraft({ ...draft, progress: o.id })}
+                className={`h-11 px-1 text-[13px] ${i > 0 ? 'border-l-[1.5px] border-ink' : ''} ${draft.progress === o.id ? BUTTON_ON : ''}`}
               >
                 {o.label}
               </button>
