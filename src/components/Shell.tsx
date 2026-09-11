@@ -10,6 +10,7 @@ import { MetronomeBar } from './MetronomeBar'
 import { Roadmap } from './Roadmap'
 import { StepDetail, StepNotFound } from './StepDetail'
 import { StepList } from './StepList'
+import { ThemeToggle } from './ThemeToggle'
 import { Welcome } from './Welcome'
 
 function parseLevel(value: string | undefined): Level | undefined {
@@ -60,16 +61,19 @@ export function Shell() {
         <Link to="/" className="font-hand text-[28px] font-bold">
           Tap Steps
         </Link>
-        <Link
-          to="/roadmap"
-          aria-current={roadmapLevel ? 'page' : undefined}
-          className={`flex h-10 items-center gap-1.5 rounded-[10px] border-[1.5px] border-ink px-3 text-sm ${
-            roadmapLevel ? 'bg-ink text-paper' : 'bg-card hover:bg-soft'
-          }`}
-        >
-          <RoadmapIcon size={18} />
-          Roadmap
-        </Link>
+        <div className="flex items-center gap-2">
+          <Link
+            to="/roadmap"
+            aria-current={roadmapLevel ? 'page' : undefined}
+            className={`flex h-10 items-center gap-1.5 rounded-[10px] border-[1.5px] border-ink px-3 text-sm ${
+              roadmapLevel ? 'bg-ink text-paper' : 'bg-card hover:bg-soft'
+            }`}
+          >
+            <RoadmapIcon size={18} />
+            Roadmap
+          </Link>
+          <ThemeToggle />
+        </div>
       </header>
 
       <div className="flex-1 lg:grid lg:min-h-0 lg:grid-cols-[400px_minmax(0,1fr)]">

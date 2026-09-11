@@ -15,6 +15,70 @@
   --color-chip: #b9b5ab;
   --color-fill: #ecebe6;
   --color-soft: #f0eee8;
+  /* Backdrop behind sheets and dialogs; stays dark in both themes. */
+  --color-scrim: #262521;
+}
+
+/* Level colors (src/data/meta.ts points at these). */
+:root {
+  color-scheme: light;
+  --level-1: #3f9d5a;
+  --level-2: #3b78c9;
+  --level-3: #8a5bc7;
+  --level-4: #d9a91f;
+  --level-5: #e07b2e;
+  --level-6: #d0433a;
+  --level-7: #262521;
+  --on-level-1: #ffffff;
+  --on-level-2: #ffffff;
+  --on-level-3: #ffffff;
+  --on-level-4: #262521;
+  --on-level-5: #ffffff;
+  --on-level-6: #ffffff;
+  --on-level-7: #ffffff;
+}
+
+/*
+ * Dark theme: the same tokens with a warm dark palette. It applies when the user picks Dark,
+ * or when the device is dark and the user hasn't picked Light (src/lib/theme.ts sets data-theme).
+ * The two blocks must stay identical.
+ */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-paper: #1c1b18;
+  --color-card: #26241f;
+  --color-ink: #f1efe9;
+  --color-ink-2: #d4d1c9;
+  --color-muted: #a7a399;
+  --color-faint: #8a867d;
+  --color-line: #3a3832;
+  --color-line-2: #56534b;
+  --color-chip: #6b675e;
+  --color-fill: #2e2c27;
+  --color-soft: #2b2924;
+  --color-scrim: #000000;
+  --level-7: #d9d6ce;
+  --on-level-7: #1c1b18;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-paper: #1c1b18;
+    --color-card: #26241f;
+    --color-ink: #f1efe9;
+    --color-ink-2: #d4d1c9;
+    --color-muted: #a7a399;
+    --color-faint: #8a867d;
+    --color-line: #3a3832;
+    --color-line-2: #56534b;
+    --color-chip: #6b675e;
+    --color-fill: #2e2c27;
+    --color-soft: #2b2924;
+    --color-scrim: #000000;
+    --level-7: #d9d6ce;
+    --on-level-7: #1c1b18;
+  }
 }
 
 html {

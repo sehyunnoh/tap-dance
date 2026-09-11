@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="Tap dance steps from beginner to expert, grouped into 7 levels, with videos, slow motion, A–B looping, mirror view and a metronome for practice." />
     <meta name="theme-color" content="#fbfaf7" />
+    <script>
+      // Apply a saved Light/Dark choice before the first paint to avoid a flash (see src/lib/theme.ts).
+      try {
+        var theme = JSON.parse(localStorage.getItem('theme'))
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme
+      } catch (e) {}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Nunito:wght@400;700&display=swap" />

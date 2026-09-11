@@ -57,7 +57,7 @@ export function FilterSheet({ onClose }: { onClose: () => void }) {
 
   return (
     <div className="fixed inset-0 z-[80] flex items-end justify-center lg:items-center" role="dialog" aria-modal="true" aria-labelledby="filter-title">
-      <button type="button" aria-label="Close filters" onClick={onClose} className="absolute inset-0 bg-ink/45" />
+      <button type="button" aria-label="Close filters" onClick={onClose} className="absolute inset-0 bg-scrim/45" />
       <div className="relative flex max-h-[92dvh] w-full flex-col gap-5 overflow-y-auto rounded-t-[18px] border-t-[1.5px] border-ink bg-paper px-4 pb-5 pt-2.5 lg:max-w-md lg:rounded-[18px] lg:border-[1.5px]">
         <span className="mx-auto h-1 w-10 rounded-full bg-chip lg:invisible" />
         <div className="flex items-center justify-between">

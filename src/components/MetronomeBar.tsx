@@ -138,7 +138,7 @@ export function MetronomeBar() {
 
       {open && (
         <div className="fixed inset-0 z-[70] flex items-end justify-center lg:items-center" role="dialog" aria-modal="true" aria-labelledby="metronome-title">
-          <button type="button" aria-label="Close metronome" onClick={() => setOpen(false)} className="absolute inset-0 bg-ink/45" />
+          <button type="button" aria-label="Close metronome" onClick={() => setOpen(false)} className="absolute inset-0 bg-scrim/45" />
           <div className="relative flex w-full flex-col gap-5 rounded-t-[18px] border-t-[1.5px] border-ink bg-paper px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-2.5 lg:max-w-md lg:rounded-[18px] lg:border-[1.5px] lg:pb-5">
             <span className="mx-auto h-1 w-10 rounded-full bg-chip lg:invisible" />
             <div className="flex items-center justify-between">
