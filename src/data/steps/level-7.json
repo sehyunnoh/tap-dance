@@ -6,7 +6,93 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 13,
+    "breakdown": [
+      "Hop Shuffle",
+      "Hop Scuffle",
+      "Hop Riffle",
+      "Hop",
+      "Stomp",
+      "Spank"
+    ],
+    "count": [
+      {
+        "sound": "Hop",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Hop",
+        "beat": "2"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Hop",
+        "beat": "3"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Hop",
+        "beat": "4"
+      },
+      {
+        "sound": "Stomp",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "A four-count sequence that hops on the right foot every count while the left foot plays something different each time: a shuffle, then a scuffle, then a riffle, and last a stomp followed by a spank. The stomp hits the whole left foot flat without taking weight, so the right foot carries you all the way through. Thirteen sounds in total.",
+    "tips": [
+      "The left foot's pattern changes on every count, so stay one move ahead in your head - know that the scuffle, riffle or stomp is coming before the current pattern ends.",
+      "Keep the hops low and on the ball of the foot; big hops steal the time the left foot needs, especially on the four-sound riffle count."
+    ],
+    "prerequisites": [
+      "hop-shuffle",
+      "hop-scuffle",
+      "hop-riffle",
+      "stomp"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "K4NGPLRN0ss",
+        "title": "Hop Shuffle Hop Scuffle Hop Riffle Hop Stomp Spank Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "step-riff-brush-heel",
@@ -15,7 +101,64 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Step",
+      "Riff",
+      "Brush",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A Step Riff Heel with one extra brush slipped in after the riff. Step onto the right foot, riff the left (a brush and then a dig of the heel), brush the left once more, and finish by dropping the right heel. Five sounds; the opening brush of the riff can also be played as a touch.",
+    "tips": [
+      "The added brush is the sound that usually comes in late. Start thinking about it while you are still riffing, so the foot flows straight out of the dig into the brush.",
+      "Get Step Riff Heel steady first, then add the brush without letting the final heel drift off its count."
+    ],
+    "prerequisites": [
+      "step-riff-heel",
+      "riff",
+      "brush"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "WRipOPsaeNU",
+        "title": "Step Riff Brush Heel Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "T9ZXOCWYlD0",
+        "title": "Step Riff Brush Heel Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "toe-dig-bombershay",
@@ -24,7 +167,70 @@
     "level": 7,
     "essential": true,
     "category": "classic",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Toe Tip (Single Toe Stand)",
+      "Spank",
+      "Dig",
+      "Dig",
+      "Spank",
+      "Dig"
+    ],
+    "count": [
+      {
+        "sound": "Toe Tip",
+        "beat": "1"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig",
+        "beat": "a"
+      },
+      {
+        "sound": "Dig",
+        "beat": "2"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig",
+        "beat": "a"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A bombershay variation made of two three-sound groups. First, rise onto the tip of the right toe as a single toe stand, then spank the left foot and dig its heel. Second, dig the right heel, then spank and dig the left foot again. Six sounds, counted 1 & a 2 & a.",
+    "tips": [
+      "Stay low: keep a bend in the right knee, especially on the toe stand. If you pop up tall, the left foot ends up too far from the floor to catch its spank.",
+      "Learn the plain bombershay rhythm first, then swap the toe stand in for the step."
+    ],
+    "prerequisites": [
+      "bombershay-modern",
+      "single-toe-stand",
+      "dig"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "p6ljbgaAIfY",
+        "title": "Toe Dig Bombershay Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "EOjf7o13J4M",
+        "title": "Toe (Tip) Dig Bombershay Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "drawback-flam",
@@ -33,7 +239,52 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Spank",
+      "Heel",
+      "Flam"
+    ],
+    "count": [
+      {
+        "sound": "Spank",
+        "beat": "e"
+      },
+      {
+        "sound": "Heel",
+        "beat": "&"
+      },
+      {
+        "sound": "Step (flam)",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel (flam)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A drawback that finishes with a flam instead of a plain step. Spank the right foot back and drop the left heel, then put the right foot down with a flam: a step and a heel so close together they almost sound like one. Four sounds, travelling backward like a regular drawback.",
+    "tips": [
+      "Keep the right ankle loose as the foot comes down for the flam. A stiff ankle makes the heel arrive late, and the flam turns into two separate sounds.",
+      "Get the plain drawback rhythm solid first; the flam should add a tight extra sound without delaying the step."
+    ],
+    "prerequisites": [
+      "drawback",
+      "flam"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "evlSdHErnQA",
+        "title": "Drawback Flam Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "switching-pullback-flap-heel-toe",
@@ -42,7 +293,64 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Switching Pullback Flap",
+      "Heel",
+      "Toe Tip"
+    ],
+    "count": [
+      {
+        "sound": "Pull (spank)",
+        "beat": "&"
+      },
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Heel",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Standing on the right foot, push off into the air, spanking the right foot back as it leaves the floor. Land with a flap on the left foot, drop the left heel, and finish with a right toe tip. Five sounds, with the weight moving over to the left foot.",
+    "tips": [
+      "If the flap sounds early, lift the left foot higher in the air before it brushes down - that buys time for the pull to sound first.",
+      "Build it up from the Switching Pullback Flap, adding the heel and then the toe tip once the flap lands cleanly."
+    ],
+    "prerequisites": [
+      "switching-pullback-flap",
+      "switching-pullback",
+      "flap-heel",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "ZP-CTj8xWkQ",
+        "title": "Switching Pullback Flap Heel Toe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "EZcQ2lURn4Y",
+        "title": "Switching Pullback Flap Heel Toe (Tip) Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "treadmill-heel",
@@ -51,7 +359,59 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Brush",
+      "Switching Pullback",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "&"
+      },
+      {
+        "sound": "Land",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A Treadmill with a heel added at the end. Brush the right foot, then do a switching pullback off the left: spring off the left foot, spanking it back as it leaves the floor, and land on the ball of the right. Finish by dropping the right heel. Four sounds, with the weight ending on the right foot.",
+    "tips": [
+      "Hold the heel back until its own count; if it drops straight after the landing, the last two sounds merge.",
+      "When repeating it, go straight from the heel into the next brush with no pause so the pattern keeps rolling."
+    ],
+    "prerequisites": [
+      "treadmill",
+      "switching-pullback",
+      "brush"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "MTMqRNIlg2o",
+        "title": "Treadmill Heel Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "J7AA986Yxwo",
+        "title": "Treadmill Heel Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "buffalo-wing",
@@ -60,7 +420,73 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Switching Wing"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Scrape",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Land",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "A buffalo where the final leap becomes a switching wing. With a foot crossed in front, step onto the right and shuffle the left. Then the right foot scrapes out and spanks back in while you are in the air, and you land on the ball of the left foot with the right crossed in front again. Six sounds.",
+    "tips": [
+      "Begin the push-off for the wing while the shuffle is still happening, but not so early that the wing lands ahead of time.",
+      "Snap the wing's spank back in quickly - a slow return makes it collide with the landing."
+    ],
+    "prerequisites": [
+      "buffalo",
+      "switching-wing",
+      "wings"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "dWtpLHgHOBQ",
+        "title": "Buffalo Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "brUYfIhpWos",
+        "title": "Buffalo Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "k1flo8UKpGM",
+        "title": "Buffalo Wing Practice Exercise by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "routine"
+      }
+    ]
   },
   {
     "id": "maxie-ford-wing",
@@ -69,7 +495,72 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Switching Wing",
+      "Toe Tip"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Scrape",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Land",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "A Maxie Ford with the leap replaced by a switching wing. Step onto the right foot and shuffle the left; then the right foot scrapes out and spanks back in the air as you land on the left. Finish with the right toe tip crossed behind. Seven sounds, with the weight ending on the left foot.",
+    "tips": [
+      "Start pushing off for the wing during the spank of the shuffle so the wing is not late - the push is a preparation, not an extra sound.",
+      "Learn the Maxie Ford Pullback first; the wing fits one more sound into the same space."
+    ],
+    "prerequisites": [
+      "maxie-ford",
+      "maxie-ford-pullback",
+      "switching-wing"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "DUz4GQXiEPU",
+        "title": "Maxie Ford Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "N1INmXWeGmE",
+        "title": "Maxie (Maxi) Ford Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "double-waltz-clog-wing",
@@ -78,7 +569,76 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 8,
+    "breakdown": [
+      "Flap",
+      "Shuffle",
+      "Switching Wing",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Scrape",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Land",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "It opens like a double waltz clog, with a right flap and a left shuffle, then swaps the ball change for a switching wing and a step. The right foot scrapes out and spanks back in the air as you land on the left, then the right steps down to complete the change of weight. Eight sounds.",
+    "tips": [
+      "Lift the wing's landing foot a little higher before it comes down; if it hangs low, it lands too soon and swallows the spank.",
+      "Build it from the Double Waltz Clog Pullback, which uses the same frame with a two-sound pullback instead of the three-sound wing."
+    ],
+    "prerequisites": [
+      "double-waltz-clog",
+      "double-waltz-clog-pullback",
+      "switching-wing"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "ajz-r-WofKw",
+        "title": "Double Waltz Clog Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "VD_Z55SPv4M",
+        "title": "Double Waltz Clog Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "frap",
@@ -87,7 +647,62 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Riff",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A riff followed straight away by a step, all on the right foot: brush it forward (or touch), let the heel dig as the foot travels, then step down onto it. Three sounds and a change of weight. Don't mix it up with a flap - the dig adds a sound between the brush and the step.",
+    "tips": [
+      "Don't let the foot float up after the riff. Drive the ball straight down into the step, or the step will drag behind.",
+      "Practise it slowly as three clear, even sounds before building speed."
+    ],
+    "prerequisites": [
+      "riff",
+      "flap"
+    ],
+    "nextSteps": [
+      "frap-cramp-roll",
+      "frapback"
+    ],
+    "videos": [
+      {
+        "youtubeId": "vCCWYeeBoh4",
+        "title": "Frap Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "xMA7YjvsrUI",
+        "title": "Frap (Not Flap) Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "sfG5h-thEtc",
+        "title": "How to Tap Dance: Fraps",
+        "channel": "mahalodotcom",
+        "type": "tutorial"
+      }
+    ]
   },
   {
     "id": "frap-cramp-roll",
@@ -96,7 +711,73 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Frap",
+      "Step",
+      "Heel",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A cramp roll that starts with a frap instead of a plain step. Riff the right foot (brush, then heel dig) and step onto it, step onto the left, then drop the right heel and the left heel. Six sounds rolling out in place.",
+    "tips": [
+      "If the brush and the dig blur together, press harder into the brush and bring the foot toward the floor at a steeper angle so the two sounds separate.",
+      "Keep all six sounds even - the frap tends to rush into the first step."
+    ],
+    "prerequisites": [
+      "frap",
+      "cramp-roll"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "OHz02j9JKGY",
+        "title": "Frap Cramp Roll Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "IYdlynG6nyI",
+        "title": "Frap (NOT Flap) Cramp Roll Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "-zCaKgCnI2E",
+        "title": "How to Tap Dance: Frap Cramp Rolls",
+        "channel": "mahalodotcom",
+        "type": "tutorial"
+      }
+    ]
   },
   {
     "id": "scuffle-pullback",
@@ -105,7 +786,57 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Scuffle",
+      "Switching Pullback"
+    ],
+    "count": [
+      {
+        "sound": "Dig",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A right-foot scuffle that leads straight into a switching pullback. Dig the right heel forward and spank the ball back, then spring off the left foot, spanking it back as it leaves the floor, and land on the ball of the right. Four sounds, ending with the weight on the right foot.",
+    "tips": [
+      "Give the scuffle's spank its full value instead of rushing it, then go straight into the pullback so it doesn't lag.",
+      "Keep the scuffle small and close to the body so the right foot is ready to take the landing."
+    ],
+    "prerequisites": [
+      "scuffle",
+      "switching-pullback"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "PkZYan3ECVw",
+        "title": "Scuffle Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "ALstGvvWzkw",
+        "title": "Scuffle Pullback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "buffalo-scuffle",
@@ -114,7 +845,67 @@
     "level": 7,
     "essential": true,
     "category": "classic",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Scuffle",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "A buffalo with a scuffle squeezed in before the final landing. With a foot crossed in front, step (or leap) onto the right and shuffle the left. Then lift your weight up so the right foot can scuffle - heel dig, ball spank - before you land on the left, with the right crossed in front again. Six sounds.",
+    "tips": [
+      "Shift your weight up off the right leg early; that leg has to play the scuffle and there is very little time.",
+      "Keep the scuffle tiny, barely skimming the floor, so it fits before the landing."
+    ],
+    "prerequisites": [
+      "buffalo",
+      "scuffle"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "bod_YmOtvJA",
+        "title": "Buffalo Scuffle Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "R5pMrRYMBTk",
+        "title": "Buffalo Scuffle Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "irish-pullback-heel-flap-heel",
@@ -123,7 +914,78 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 8,
+    "breakdown": [
+      "Shuffle",
+      "Single Pullback",
+      "Heel",
+      "Flap",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Spank",
+        "beat": "1"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "&"
+      },
+      {
+        "sound": "Land",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "a"
+      },
+      {
+        "sound": "Heel",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "An Irish Pullback where the closing step becomes heel, flap, heel. Shuffle the right foot, then do a single (one-foot) pullback on the left: spring off it, spanking it back, and land on the left ball again. Drop the left heel, then flap the right foot and drop the right heel. Eight sounds, with the weight ending on the right.",
+    "tips": [
+      "Let the left heel land completely before the flap begins - the two tend to overlap.",
+      "Learn the Irish Pullback Flap Heel first, then add the extra heel right after the pullback."
+    ],
+    "prerequisites": [
+      "irish-pullback",
+      "irish-pullback-flap-heel",
+      "single-pullback",
+      "flap-heel"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "3FYjJa6XjwU",
+        "title": "Irish Pullback Heel Flap Heel Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "o1qxcmHokXc",
+        "title": "Irish Pullback Heel Flap Heel Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "single-pullback-toe",
@@ -132,7 +994,57 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Pull",
+      "Toe Tip",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Pull (spank)",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A single (one-foot) pullback with a toe tip slipped in, all on the right foot. Spring off the right foot, spanking it back as it leaves the floor, hit the tip of the right toe, then step back down onto the right. Three quick sounds; in Single Pullback Opposite Toe the toe tip comes from the left foot instead.",
+    "tips": [
+      "Keep the ankle a little loose on the pull; a locked ankle drags the ball tap and turns the spank into a scrape.",
+      "Make sure your single pullbacks are clean before adding the toe tip."
+    ],
+    "prerequisites": [
+      "single-pullback",
+      "toe-tip"
+    ],
+    "nextSteps": [
+      "irish-pullback-toe-flap",
+      "single-pullback-opposite-toe"
+    ],
+    "videos": [
+      {
+        "youtubeId": "a8_rieArUGA",
+        "title": "Single Pullback Toe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "KzXNmM-4DlM",
+        "title": "Single Pullback Toe (Tip) Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "irish-pullback-toe-flap",
@@ -141,7 +1053,77 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Shuffle",
+      "Single Pullback Toe",
+      "Flap"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Pull (spank)",
+        "beat": "1"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "e"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "An Irish Pullback Flap whose pullback gains a toe tip. Shuffle the right foot, then do a Single Pullback Toe on the left: spring off the left foot, spanking it back, hit the left toe tip, and step back onto the left. Finish with a right flap. Seven sounds, with the weight ending on the right.",
+    "tips": [
+      "Keep the left ankle fairly relaxed on the pullback, and spring high enough that the foot has time to reach the toe tip before it steps.",
+      "Get the Single Pullback Toe clean on its own first, then put the shuffle in front and the flap after it."
+    ],
+    "prerequisites": [
+      "irish-pullback",
+      "single-pullback-toe",
+      "irish-pullback-flap"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "zHBAtr0GkzM",
+        "title": "Irish Pullback Toe Flap Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "8vhGBWcUgRw",
+        "title": "Irish Pullback Toe (Tip) Flap Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "p6NFTTXyaHc",
+        "title": "Irish Pullback Toe Flap Practice Exercise by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "routine"
+      }
+    ]
   },
   {
     "id": "hot-toe",
@@ -150,7 +1132,78 @@
     "level": 7,
     "essential": true,
     "category": "combination",
-    "videos": []
+    "sounds": 8,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Toe Tip",
+      "Scuffle",
+      "Step",
+      "Toe Tip"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "e"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "&"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "It opens and closes like a Maxie Ford but packs extra sounds into the middle. Step onto the right foot and shuffle the left, hit the left toe tip, scuffle the right foot, step onto the left, and finish with a right toe tip crossed behind. Eight sounds; the right foot scuffles while your weight is lifting, so the middle goes by very quickly.",
+    "tips": [
+      "Get your weight up into the air as early as you can after the left toe tip so the right foot has room to scuffle.",
+      "Practise slowly with all eight sounds even, then tighten the toe tip, scuffle and step together."
+    ],
+    "prerequisites": [
+      "maxie-ford",
+      "scuffle",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "YYoDMZX6Jt8",
+        "title": "Hot Toe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "sy0WKA_q7Ag",
+        "title": "Hot Toe Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "waltz-clog-scuffle",
@@ -159,7 +1212,79 @@
     "level": 7,
     "essential": true,
     "category": "classic",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Scuffle",
+      "Step",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Step (R)",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush (L)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (L)",
+        "beat": "2"
+      },
+      {
+        "sound": "Dig (R)",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Step (L)",
+        "beat": "a"
+      },
+      {
+        "sound": "Step (R)",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Step onto the right foot and shuffle the left, then lift your weight up so the right foot can play a scuffle (a heel dig followed by a spank). Finish by stepping onto the left and then back onto the right. It's a waltz clog with a scuffle slipped in before the closing steps, giving seven sounds instead of five.",
+    "tips": [
+      "Start lifting your weight up off the floor as soon as the shuffle is done; if you stay heavy, the scuffle comes in late and muddy.",
+      "Get the plain waltz clog and a scuffle ball change solid on their own first, then join them without letting the extra sounds stretch the waltz feel."
+    ],
+    "prerequisites": [
+      "waltz-clog",
+      "scuffle",
+      "scuffle-ball-change"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "dG8LQM-NwAY",
+        "title": "Waltz Clog Scuffle Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "HYvnbB6z9Jk",
+        "title": "Waltz Clog Scuffle Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "u3fQHmHc5D8",
+        "title": "Waltz Clog Scuffle Practice Exercise by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "routine"
+      }
+    ]
   },
   {
     "id": "scuff-front",
@@ -168,7 +1293,52 @@
     "level": 7,
     "essential": true,
     "category": "combination",
-    "videos": []
+    "sounds": 2,
+    "breakdown": [
+      "Scuff (both feet)",
+      "Land"
+    ],
+    "count": [
+      {
+        "sound": "Scuff (both feet)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (both feet)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Scuff both feet forward at the same moment, so both heel taps catch the floor together as the feet leave it, then land on the balls of both feet at once. Two sounds, each made by both feet in unison. It has the same two-sound shape as a pullback, but the first sound is made by the heels moving forward.",
+    "tips": [
+      "Lift the feet well up and out of the scuff so they have room to come back down for a clean, on-time landing.",
+      "The two heels should sound like one; if you hear a double, one foot is leaving the floor earlier than the other."
+    ],
+    "prerequisites": [
+      "scuff",
+      "jump",
+      "pullback"
+    ],
+    "nextSteps": [
+      "double-scuff-front"
+    ],
+    "videos": [
+      {
+        "youtubeId": "HsN75MRM8Jo",
+        "title": "Scuff Front Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "sjdEbUoEhE4",
+        "title": "Scuff Front Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "double-scuff-front",
@@ -177,7 +1347,65 @@
     "level": 7,
     "essential": true,
     "category": "combination",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Scuff",
+      "Scuff",
+      "Step",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Scuff (R)",
+        "beat": "1"
+      },
+      {
+        "sound": "Scuff (L)",
+        "beat": "e"
+      },
+      {
+        "sound": "Step (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Step (L)",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "The Scuff Front with its sounds split apart. Instead of both feet scuffing and landing together, the right foot scuffs, then the left, and you land on the ball of the right foot and then the left. That gives four sounds instead of two, the same way a double pullback splits up a pullback.",
+    "tips": [
+      "Pull the feet up high out of both scuffs, and make sure the second scuff follows the first right away instead of trailing behind.",
+      "Keep the two landings as separate as the two scuffs; it's easy to let the steps collapse into one flat sound."
+    ],
+    "prerequisites": [
+      "scuff-front",
+      "double-pullback"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "HIfObffSd1g",
+        "title": "STEPTANZ TUTORIAL - Double Scuff Front",
+        "channel": "Melanie Oster",
+        "type": "tutorial"
+      },
+      {
+        "youtubeId": "Tn2i_yajcYw",
+        "title": "Double Scuff Front Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "ekugYIa8S4E",
+        "title": "Double Scuff Front Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "frapback",
@@ -186,7 +1414,68 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Spank",
+      "Heel",
+      "Frap"
+    ],
+    "count": [
+      {
+        "sound": "Spank (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel (L)",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig (R)",
+        "beat": "a"
+      },
+      {
+        "sound": "Step (R)",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Spank the right foot back and drop the left heel, then finish with a frap on the right: a quick brush-and-dig riff that goes straight into a step. That's five sounds, ending with your weight on the right. It opens like a drawback (spank, heel), but the drawback's last step becomes a three-sound frap.",
+    "tips": [
+      "As you speed up, smooth the rhythm out so the five sounds roll evenly instead of swinging.",
+      "Right after the dig, push the ball of the foot straight down for the step instead of lifting the foot first; lifting is what makes the last sound late."
+    ],
+    "prerequisites": [
+      "drawback",
+      "frap"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "Lil605bZzpg",
+        "title": "How to Tap Dance: Frap Backs",
+        "channel": "mahalodotcom",
+        "type": "tutorial"
+      },
+      {
+        "youtubeId": "5Ip4IfQ_NxY",
+        "title": "Frapback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "9PETQ-RQ-Xc",
+        "title": "Frapback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "cincinnati-flam",
@@ -195,16 +1484,146 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Spank",
+      "Heel",
+      "Shuffle",
+      "Heel",
+      "Flam"
+    ],
+    "count": [
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Heel",
+        "beat": "&"
+      },
+      {
+        "sound": "Step (flam)",
+        "beat": "3"
+      },
+      {
+        "sound": "Heel (flam)",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Spank the right foot, drop the left heel, shuffle the right, drop the left heel again, then finish with a flam on the right: a step and a heel played so close together that they almost merge. It's a Cincinnati with its last step turned into a flam, giving seven sounds in the same '&1&2&3' space.",
+    "tips": [
+      "Keep the ankle loose on the last step so the flam's heel falls right behind it instead of arriving late.",
+      "Get the regular Cincinnati clean first; the flam should replace the last step without changing the timing of anything before it."
+    ],
+    "prerequisites": [
+      "cincinnati",
+      "flam"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "qneBN14zBAs",
+        "title": "Cincinnati Flam Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "c9_xle9EONY",
+        "title": "Cincinnati Flam Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "joe-toe-pull",
     "name": "Joe Toe Pull",
-    "aliases": [],
+    "aliases": [
+      "Joe Toe Pullback"
+    ],
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Pull",
+      "Pull",
+      "Toe (Tip)",
+      "Step",
+      "Heel",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Pull",
+        "beat": "a"
+      },
+      {
+        "sound": "Pull",
+        "beat": "1"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "e"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Pull the right foot and then the left, as in a double pullback. Then tip the right toe, step onto the right, drop the right heel, and finally step onto the left. It is a double pullback with a toe tip and a heel slipped in before the last landing, six sounds in all.",
+    "tips": [
+      "Two sounds tend to rush: the left pull and the right toe tip. Hold each back slightly so it doesn't crowd the sound before it.",
+      "Learn the double pullback and a pullback with a toe tip first; this step strings those ideas together."
+    ],
+    "prerequisites": [
+      "double-pullback",
+      "single-pullback-toe",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "bhb91uuFwoA",
+        "title": "Joe Toe Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "YM4mcIh56vg",
+        "title": "Joe Toe Pullback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "pullback-dig-toe",
@@ -213,7 +1632,54 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Pullback (both feet)",
+      "Dig (both feet)",
+      "Toe (both feet)"
+    ],
+    "count": [
+      {
+        "sound": "Pull (both feet)",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig (both feet)",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe (both feet)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Pull both feet up off the floor so they spank together, come down on the back edges of both heels at once, then drop both toes together. Three sounds, each made by both feet in unison, and you finish flat on both feet instead of on the balls.",
+    "tips": [
+      "Lean a little forward and keep the jump low; going too high or sitting back makes the heel landing late.",
+      "Keep the toes lifted as the heels land so the dig and the toe stay two distinct sounds."
+    ],
+    "prerequisites": [
+      "pullback",
+      "dig-toe"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "49_pDXWwnPQ",
+        "title": "Pullback Dig Toe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "CW7l78OezKY",
+        "title": "Pullback Dig Toe Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "3-sound-pullback",
@@ -222,7 +1688,54 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Pull (both feet)",
+      "Toe (Tip, both feet)",
+      "Land (both feet)"
+    ],
+    "count": [
+      {
+        "sound": "Pull (both feet)",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip (both feet)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (both feet)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "A pullback with an extra sound squeezed into the air time. Both feet spank as they leave the floor, the toe taps strike the floor while you're still off the ground, and then you land on the balls of both feet. Three sounds, each made by both feet together.",
+    "tips": [
+      "Once the pull has sounded, relax the ankles completely and give the legs a quick twitch to snap the toes down for the middle sound.",
+      "Get enough height that the landing doesn't arrive before the toe sound has had its moment."
+    ],
+    "prerequisites": [
+      "pullback",
+      "pullback-toe"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "vqXw6cLGXbU",
+        "title": "3 Sound Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "uOJ4957Kd7E",
+        "title": "Slow Motion 3 Sound Pullbacks",
+        "channel": "Jacob T Rodvelt-Gamlieli",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "pullback-shuffle-step",
@@ -231,7 +1744,58 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Pull (both feet)",
+      "Shuffle (both feet)",
+      "Land (both feet)"
+    ],
+    "count": [
+      {
+        "sound": "Pull (both feet)",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush (both feet)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (both feet)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (both feet)",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Pull both feet off the floor, shuffle both feet together while you're in the air (a brush forward and a spank back), then land on both feet at the same time. Four sounds, all played by both feet in unison.",
+    "tips": [
+      "Jump high: you need the hang time to fit a full shuffle in before you come down.",
+      "Keep the feet perfectly together on every sound so it reads as four clean sounds, not a scatter of eight."
+    ],
+    "prerequisites": [
+      "pullback",
+      "shuffle"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "pVwc_7d_dGQ",
+        "title": "Pullback Shuffle Step Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "qywbdejxpgg",
+        "title": "Pullback Shuffle Step Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "single-pullback-opposite-toe",
@@ -240,7 +1804,48 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Pull",
+      "Toe (Tip)",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Pull (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip (L)",
+        "beat": "a"
+      },
+      {
+        "sound": "Step (R)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Do a single pullback on the right foot, and while you're in the air, tip the left toe on the floor before landing back on the right. Three sounds, and the weight stays on the right. Playing the toe tip with the opposite foot is what sets it apart from the Single Pullback Toe.",
+    "tips": [
+      "Get as high as you can on the pull so there's time to fit the toe tip in before the landing.",
+      "Keep the ankle relaxed on the pull so the first sound is a clean spank, not a scrape."
+    ],
+    "prerequisites": [
+      "single-pullback",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "sGGOPetDO4g",
+        "title": "Single Pullback Opposite Toe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "switching-toe-pullback",
@@ -249,7 +1854,55 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Spank",
+      "Toe (Tip)",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Spank (R)",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip (R)",
+        "beat": "a"
+      },
+      {
+        "sound": "Step (L)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Standing on the right foot, push off into the air and let the right foot spank as it leaves the floor. Tip the right toe, then land with your weight on the left foot. It's a switching pullback with a toe tip before the landing; in the Switching Pullback Toe, the toe tip comes after the landing instead.",
+    "tips": [
+      "Keep the ankle somewhat relaxed and don't point the foot during the pull, or the spank turns into a scrape.",
+      "Build height on the push-off; the toe tip needs air time to sound before you land."
+    ],
+    "prerequisites": [
+      "switching-pullback",
+      "toe-tip",
+      "switching-pullback-toe"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "MUpokYi9qzc",
+        "title": "Switching Toe Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "QtlSzjKOxXs",
+        "title": "Switching Toe (Tip) Pullback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "pendulum-wing",
@@ -258,7 +1911,31 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "prerequisites": [
+      "single-wing",
+      "pendulum-shuffle"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "ZxizrRUKLDE",
+        "title": "Pendulum Wings - Tap Dance Lesson, Joseph Wiggan #342",
+        "channel": "idancedotnet",
+        "type": "tutorial"
+      },
+      {
+        "youtubeId": "lEvm_-34dIc",
+        "title": "Pendulum Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "kfPqDKTeByw",
+        "title": "Pendulum Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "scissor-wing",
@@ -267,7 +1944,60 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Scrape (scissor)",
+      "Spank / Brush",
+      "Land"
+    ],
+    "count": [
+      {
+        "sound": "Scrape (both feet)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank + Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (both feet)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Stand on the balls of both feet with one foot in front of the other. Spring up while the front foot scrapes backward and the back foot scrapes forward, like closing scissors. Then send them home at the same moment, the front foot with a spank and the back foot with a brush, and land in the position you started from. Three sounds, each made by both feet together.",
+    "tips": [
+      "Point the toe of the foot that scrapes backward firmly; otherwise that foot does a pullback instead of a scrape.",
+      "Keep both feet exactly in time on every sound so you hear three crisp sounds instead of six."
+    ],
+    "prerequisites": [
+      "wings",
+      "crossing-wing"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "7B7-VhxueQY",
+        "title": "LEARN TO TAP DANCE - SCISSOR WINGS - Free online dance class! - Tap Dance Step Tutorial",
+        "channel": "Jenne Vermes",
+        "type": "tutorial"
+      },
+      {
+        "youtubeId": "bRvKlmy5bC8",
+        "title": "Scissor Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "7LZhP5p9pHw",
+        "title": "Scissor Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "five-count-wing",
@@ -276,7 +2006,71 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Scrape",
+      "Spank",
+      "Brush",
+      "Spank",
+      "Land"
+    ],
+    "count": [
+      {
+        "sound": "Scrape (out)",
+        "beat": "1"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "e"
+      },
+      {
+        "sound": "Brush (out)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "A wing with an extra out-and-in while you're in the air. From the balls of both feet, scrape both feet outward as you rise, spank them in, brush them out again, spank them in again, and land on the balls of both feet. Five sounds, each played by both feet together.",
+    "tips": [
+      "Keep the ankles very loose; stiff ankles can't make four sounds in one jump.",
+      "Don't let the feet travel far out to the sides, or there won't be time to bring them back in for the second spank and the landing."
+    ],
+    "prerequisites": [
+      "wings"
+    ],
+    "nextSteps": [
+      "five-count-single-wing"
+    ],
+    "videos": [
+      {
+        "youtubeId": "u0ilLgulIyA",
+        "title": "5 Count Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "xdj4MgPkUMk",
+        "title": "5 Count Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "0rclxpl1-SE",
+        "title": "Five Count Wings",
+        "channel": "Mike Glenney",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "five-count-single-wing",
@@ -285,7 +2079,70 @@
     "level": 7,
     "essential": true,
     "category": "air",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Scrape",
+      "Spank",
+      "Brush",
+      "Spank",
+      "Land"
+    ],
+    "count": [
+      {
+        "sound": "Scrape (out)",
+        "beat": "1"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "e"
+      },
+      {
+        "sound": "Brush (out)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "The five-count wing on one foot. The foot scrapes outward on the outer edge of its ball tap as it rises, spanks in, brushes out again, spanks in again, and lands on its own ball. Five sounds, and the weight stays on that one foot throughout.",
+    "tips": [
+      "Keep the ankle very loose so the foot can flick out and back twice in one lift.",
+      "Keep the out-swing small; a wide swing leaves no time to get the foot back in for the last spank and the landing."
+    ],
+    "prerequisites": [
+      "single-wing",
+      "five-count-wing"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "h8y8U4CNZn4",
+        "title": "5 Count Single Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "Lix9J01Nti8",
+        "title": "5 Count Single Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "zj3nyawWuJQ",
+        "title": "Five count wing on one foot - Simeon Weedall",
+        "channel": "wellmadenoise",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "heel-flam",
@@ -294,7 +2151,49 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 2,
+    "breakdown": [
+      "Heel",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Heel (grace)",
+        "beat": "1"
+      },
+      {
+        "sound": "Heel",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Drop one heel and then the other so close together that they make a single, slightly thickened sound, a flam. You play two heel taps but count them as one beat.",
+    "tips": [
+      "The second heel usually lands too soon. Start with the first heel just above the floor and the second held higher, so they can't hit at the same moment.",
+      "Aim for the smallest gap you can still hear. The two heels should be audible but still sound like one beat, not two eighth notes."
+    ],
+    "prerequisites": [
+      "heel",
+      "flam"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "2EZPkiQvOH0",
+        "title": "Heel Flam Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "61OLMBghX8w",
+        "title": "Heel Flam Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "jump-flam",
@@ -303,7 +2202,49 @@
     "level": 7,
     "essential": true,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 2,
+    "breakdown": [
+      "Jump",
+      "Land (flam)"
+    ],
+    "count": [
+      {
+        "sound": "Land (first foot, grace)",
+        "beat": "1"
+      },
+      {
+        "sound": "Land (second foot)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Push off into the air and land so the ball of one foot touches down a hair before the other. Instead of the single clean sound of a regular jump, the two landings make a flam on one count.",
+    "tips": [
+      "Hold the foot that should land second a little higher in the air than the other one.",
+      "Keep the gap tiny; if the landings drift apart, it stops sounding like a flam and becomes two separate steps."
+    ],
+    "prerequisites": [
+      "jump",
+      "flam"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "4wmitrhTJDQ",
+        "title": "Jump Flam Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "qAxmE2fgaes",
+        "title": "Jump Flam Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "baloney",
@@ -312,7 +2253,65 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Pull",
+      "Pull",
+      "Step",
+      "Heel",
+      "Toe (Tip)"
+    ],
+    "count": [
+      {
+        "sound": "Pull",
+        "beat": "1"
+      },
+      {
+        "sound": "Pull",
+        "beat": "e"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "A pullback split into two separate pulls, the right foot first and then the left. Step on the right and drop the right heel, then finish with a tip of the left toe. Five sounds in one count.",
+    "tips": [
+      "Keep the left foot planted a moment longer before it pushes off. If its pull comes too early, the two pulls blur into one.",
+      "Treat the final left toe tip as a light, weightless finish so it doesn't drag the rhythm."
+    ],
+    "prerequisites": [
+      "pullback",
+      "step-heel",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "3dxIoO9_qCI",
+        "title": "Baloney Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "EYV37z-3O2o",
+        "title": "Baloney Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "brittanyshay",
@@ -321,7 +2320,66 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 5,
+    "breakdown": [
+      "Step",
+      "Spank",
+      "Toe (Tip) - single toe stand",
+      "Step",
+      "Dig"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Spank",
+        "beat": "e"
+      },
+      {
+        "sound": "Toe Tip (single toe stand)",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "a"
+      },
+      {
+        "sound": "Dig",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Step on the right, spank the left, then come down on the tip of the left toe as a quick single toe stand. Step on the right again and dig the left heel. It has the step-spank-dig outline of a modern bombershay, with a toe stand and an extra step added in the middle.",
+    "tips": [
+      "For extra flash, turn the left foot inward as it lands on the toe tip and outward on the dig.",
+      "Get your weight right over the left toe tip so the toe stand is steady and the right step after it isn't late."
+    ],
+    "prerequisites": [
+      "bombershay-modern",
+      "spank",
+      "single-toe-stand",
+      "dig"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "i_2aDSs1k_I",
+        "title": "Brittanyshay Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "B9ymdaBvMB4",
+        "title": "Brittanyshay Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "broken-riff",
@@ -330,7 +2388,69 @@
     "level": 7,
     "essential": false,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Riffle",
+      "Heel",
+      "Toe (outside edge)",
+      "Heel (outside edge)",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Brush",
+        "beat": "1"
+      },
+      {
+        "sound": "Dig",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Outside of toe tap",
+        "beat": "*"
+      },
+      {
+        "sound": "Outside of heel tap",
+        "beat": "*"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Riffle the right foot (brush, dig, spank) and drop the left heel. Then strike the outside edge of the right toe tap, then the outside edge of the right heel tap, and finish with another left heel. Splitting the edge hits into two separate sounds gives you seven quick taps in one count.",
+    "tips": [
+      "Adjust where the foot in back lands at the end, a little at a time, until the two edge hits sound strong and clearly apart.",
+      "Practice the outside-toe, outside-heel pair on its own first so it doesn't collapse into one clunk."
+    ],
+    "prerequisites": [
+      "riffle",
+      "heel",
+      "clunk"
+    ],
+    "nextSteps": [
+      "riff-raff"
+    ],
+    "videos": [
+      {
+        "youtubeId": "yFvun_gjzJQ",
+        "title": "Broken Riff Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "clickety-clank",
@@ -339,7 +2459,75 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Click",
+      "Step",
+      "Heel",
+      "Clunk"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Click",
+        "beat": "2"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Clunk",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Step on the right, shuffle the left, click, step on the left and drop the left heel, then clunk the right foot. The click (metal on metal) and the closing clunk (both taps striking on the edge at once) give it the sound its name describes.",
+    "tips": [
+      "Hold the left heel up until its count comes; a heel that drops early crowds the step before it.",
+      "Make the click a clean tap-on-tap contact rather than a scrape so it stands out from the floor sounds."
+    ],
+    "prerequisites": [
+      "shuffle",
+      "clicks",
+      "step-heel",
+      "clunk"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "7O1LHt92gDA",
+        "title": "Clickety Clank Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "AzIjafhWM9Y",
+        "title": "Clickety Clank Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "click-pullback",
@@ -348,7 +2536,57 @@
     "level": 7,
     "essential": false,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Pull (both feet)",
+      "Click",
+      "Land (both feet)"
+    ],
+    "count": [
+      {
+        "sound": "Pull (both feet)",
+        "beat": "&"
+      },
+      {
+        "sound": "Click",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (both feet)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "A pullback with a click in the middle: both feet pull as they leave the floor, the insides of the feet knock together in the air, and then both feet land at the same moment. Three sounds: pull, click, land.",
+    "tips": [
+      "Sickle the feet slightly during the click so the metal of the taps actually meets.",
+      "Spring high enough to leave time for the click, and make the landing a single sound with both feet together."
+    ],
+    "prerequisites": [
+      "pullback",
+      "clicks",
+      "jump-click"
+    ],
+    "nextSteps": [
+      "click-wing"
+    ],
+    "videos": [
+      {
+        "youtubeId": "myimK62Mddc",
+        "title": "Click Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "sDDTYTxj1iI",
+        "title": "Click Pullback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "click-wing",
@@ -357,7 +2595,65 @@
     "level": 7,
     "essential": false,
     "category": "air",
-    "videos": []
+    "sounds": 4,
+    "breakdown": [
+      "Scrape (both feet)",
+      "Spank (both feet)",
+      "Click",
+      "Land"
+    ],
+    "count": [
+      {
+        "sound": "Scrape (out)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "a"
+      },
+      {
+        "sound": "Click",
+        "beat": "*"
+      },
+      {
+        "sound": "Land",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "A double wing with a click added. From the balls of both feet with the feet together, scrape both feet outward and up, spank them back in together, knock them against each other in the air, and land on the balls of both feet with the feet apart.",
+    "tips": [
+      "Make the click high in the air; landing with the feet apart keeps the landing from coming in early.",
+      "Get the plain wing clean first, then add the click once the scrape and spank are reliable."
+    ],
+    "prerequisites": [
+      "wings",
+      "clicks"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "nCMcNAxSxtU",
+        "title": "Click Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "7VdDciSiHKo",
+        "title": "Click Wing Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "ONPDVhIhmQc",
+        "title": "Click Wing Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "drawman",
@@ -366,7 +2662,49 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Spank",
+      "Heel",
+      "Step + Toe (together)"
+    ],
+    "count": [
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "a"
+      },
+      {
+        "sound": "Step + Toe (together)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "Spank the right foot and drop the left heel, then land a right step and a left toe tap at exactly the same moment so they sound as one. It has the same spank-heel-step shape as a drawback, but the left toe lands along with the final step.",
+    "tips": [
+      "The left toe usually drops before the right step. Keep it lifted as long as you can so both land together.",
+      "Listen for one combined sound on the count; if you hear two, one of them is early."
+    ],
+    "prerequisites": [
+      "drawback",
+      "spank",
+      "heel"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "EYC4V5ppE0U",
+        "title": "Drawman Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "faluffalo",
@@ -375,7 +2713,26 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "prerequisites": [
+      "buffalo",
+      "single-pullback",
+      "irish-pullback-flap"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "nSESCQPl3uY",
+        "title": "Faluffalo Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "Wcf019F83-o",
+        "title": "Faluffalo Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "maddalo",
@@ -384,7 +2741,68 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Single Pullback to Toe (Tip)",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Pull",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "With the left foot crossed in front, step on the right and shuffle the left, as in a buffalo. Then do a single pullback on the right that comes down on its toe tip instead of the ball, and finish by stepping on the left. The toe tip takes no weight, so the left step lands right after it.",
+    "tips": [
+      "Keep the right toe tip weightless; leaning onto it makes the left step that follows late.",
+      "Practice the single pullback toe on its own until the pull and toe tip come out as two clean, quick sounds."
+    ],
+    "prerequisites": [
+      "buffalo",
+      "shuffle",
+      "single-pullback-toe"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "BKYGhZIj5rk",
+        "title": "Maddalo BONUS Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "Xw8Xi5ajwEs",
+        "title": "Maddalo Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "riff-raff",
@@ -393,7 +2811,76 @@
     "level": 7,
     "essential": false,
     "category": "rolls-riffs",
-    "videos": []
+    "sounds": 9,
+    "breakdown": [
+      "Heel",
+      "Riffle",
+      "Heel",
+      "Riff",
+      "Toe",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Heel",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "*"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      },
+      {
+        "sound": "Brush",
+        "beat": "&"
+      },
+      {
+        "sound": "Dig",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Left heel, right riffle, left heel, right riff, then a left toe and a right step. The left heel drops between the right foot's riffle and riff, packing nine sounds into a little over two counts.",
+    "tips": [
+      "Watch for the right riffle starting early and the left toe coming late; those are the two usual trouble spots.",
+      "Say the rhythm aloud slowly before adding speed so each left heel lands squarely on its count."
+    ],
+    "prerequisites": [
+      "riffle",
+      "riff",
+      "heel"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "jy-0HXZBkhM",
+        "title": "Riff Raff Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "rooster",
@@ -402,7 +2889,67 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Hoofer's Shuffle",
+      "Hop",
+      "Heel",
+      "Step",
+      "Heel"
+    ],
+    "count": [
+      {
+        "sound": "Hoofer's shuffle (outside of ball)",
+        "beat": "&"
+      },
+      {
+        "sound": "Hoofer's shuffle (brush)",
+        "beat": "a"
+      },
+      {
+        "sound": "Hoofer's shuffle (ball)",
+        "beat": "*"
+      },
+      {
+        "sound": "Hop",
+        "beat": "*"
+      },
+      {
+        "sound": "Heel",
+        "beat": "1"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Heel",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "A hoofer's shuffle on the right foot (three small sounds played with the ball of the foot), then a hop on the left and a drop of the left heel, then a right step heel.",
+    "tips": [
+      "Finish all three sounds of the hoofer's shuffle before you push into the hop.",
+      "Keep the ankle very relaxed; the hoofer's shuffle won't sound clearly with a stiff foot."
+    ],
+    "prerequisites": [
+      "hoofers-shuffle",
+      "hop",
+      "step-heel"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "pdNHJqgZ4pI",
+        "title": "Rooster Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "rorymeister",
@@ -411,7 +2958,69 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 6,
+    "breakdown": [
+      "Stamp",
+      "Toe (Tip)",
+      "Toe (Tip)",
+      "Toe (Tip)",
+      "Step",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Stamp",
+        "beat": "1"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "2"
+      },
+      {
+        "sound": "Step",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "a"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Stamp the right foot, tip the left toe twice, tip the right toe, then step on the right and on the left. Six sounds: a stamp, a run of three toe tips, and two steps.",
+    "tips": [
+      "Go straight from the first left toe tip into the second without a pause.",
+      "Keep the toe tips light and weightless so the two steps at the end come in on time."
+    ],
+    "prerequisites": [
+      "stamp",
+      "toe-tip"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "P8VM5mrl7hU",
+        "title": "Rorymeister Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "COZuyQ5_XRc",
+        "title": "Rorymeister Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "ruffle",
@@ -420,7 +3029,76 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Brush (touch)",
+      "Dig",
+      "Spank",
+      "Toe (Tip)",
+      "Step",
+      "Heel",
+      "Smack"
+    ],
+    "count": [
+      {
+        "sound": "Brush (touch)",
+        "beat": "1"
+      },
+      {
+        "sound": "Dig",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "*"
+      },
+      {
+        "sound": "Heel",
+        "beat": "*"
+      },
+      {
+        "sound": "Smack",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "The right foot plays a riffle-like opening (a brush played as a touch, then a dig and a spank) and a toe tip. Then the left foot steps and drops its heel, and the right foot finishes with a smack that takes the weight. Seven sounds in one count.",
+    "tips": [
+      "Don't lean onto the right toe tip or stop after it; it should pass straight into the left step.",
+      "Land the final smack with a straight leg so it pops louder than the step before it."
+    ],
+    "prerequisites": [
+      "riffle",
+      "toe-tip",
+      "step-heel",
+      "smack"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "DGkHKFn3UyQ",
+        "title": "Ruffle Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "xd4FpibM8Zc",
+        "title": "Ruffle Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "sh-sh-sh-shuffle",
@@ -429,7 +3107,83 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 9,
+    "breakdown": [
+      "Step",
+      "Shuffle",
+      "Shuffle",
+      "Shuffle",
+      "Step",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Step",
+        "beat": "1"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Brush",
+        "beat": "a"
+      },
+      {
+        "sound": "Spank",
+        "beat": "2"
+      },
+      {
+        "sound": "Brush",
+        "beat": "e"
+      },
+      {
+        "sound": "Spank",
+        "beat": "&"
+      },
+      {
+        "sound": "Step",
+        "beat": "a"
+      },
+      {
+        "sound": "Step",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Step on the left, then shuffle the right three times in a row. During the first shuffle you push off the left foot into the air, and the other two happen while you are airborne. Land with a right step and then a left step. It's a triple shuffle done in the air, so it needs a big spring.",
+    "tips": [
+      "Jump as high as you can; height buys the time you need for all six shuffle sounds before landing.",
+      "Keep the shuffles small and the ankle loose so they stay fast and clear."
+    ],
+    "trivia": "The syllabus tip for this step opens with a one-word joke about how hard it is: \"Pray!\"",
+    "prerequisites": [
+      "shuffle",
+      "double-shuffle",
+      "hop-shuffle"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "UivTN1NCaJc",
+        "title": "Sh-Sh-Sh-Shuffle Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "DmBNd1Kx1Oo",
+        "title": "Learn How to Tap Dance sh-sh-shuffle",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "tutorial"
+      }
+    ]
   },
   {
     "id": "sloppy-joe",
@@ -438,7 +3192,76 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 7,
+    "breakdown": [
+      "Dig",
+      "Dig",
+      "Spank",
+      "Toe",
+      "Dig",
+      "Toe",
+      "Stamp"
+    ],
+    "count": [
+      {
+        "sound": "Dig",
+        "beat": "1"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank",
+        "beat": "a"
+      },
+      {
+        "sound": "Toe",
+        "beat": "2"
+      },
+      {
+        "sound": "Dig",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe",
+        "beat": "a"
+      },
+      {
+        "sound": "Stamp",
+        "beat": "3"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "Dig the right heel, then the left, spank the right, drop the left toe, then dig toe on the right, and finish with a left stamp. Seven sounds over two counts, trading between the feet on most of them.",
+    "tips": [
+      "The left toe right after the right spank tends to come late, so keep it tight to the spank.",
+      "Keep the right dig toe light so the left stamp lands on its count."
+    ],
+    "prerequisites": [
+      "dig",
+      "spank",
+      "dig-toe",
+      "stamp"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "6yBDcxe1Bhc",
+        "title": "Sloppy Joe Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "Wd2Fk1MVf04",
+        "title": "Sloppy Joe Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "teeler",
@@ -447,7 +3270,80 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 8,
+    "breakdown": [
+      "Pull",
+      "Pull",
+      "Toe (Tip)",
+      "Toe (Tip)",
+      "Dig",
+      "Dig",
+      "Step",
+      "Step"
+    ],
+    "count": [
+      {
+        "sound": "Pull",
+        "beat": "1"
+      },
+      {
+        "sound": "Pull",
+        "beat": "e"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "&"
+      },
+      {
+        "sound": "Toe Tip",
+        "beat": "a"
+      },
+      {
+        "sound": "Dig",
+        "beat": "*"
+      },
+      {
+        "sound": "Dig",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "*"
+      },
+      {
+        "sound": "Step",
+        "beat": "2"
+      }
+    ],
+    "bpm": {
+      "slow": 50,
+      "normal": 80
+    },
+    "description": "Everything comes in pairs, right foot then left: two pulls, two toe tips, two digs, and two steps, eight sounds packed into one count.",
+    "tips": [
+      "Hold the right dig off the floor until the second toe tip has fully finished.",
+      "Practice each pair slowly with a clear 'one-two' so no pair collapses into a single flam-like sound."
+    ],
+    "prerequisites": [
+      "pullback",
+      "toe-tip",
+      "dig"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "fkuxY38EQ7M",
+        "title": "Teeler Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "zZB7_0MkHhg",
+        "title": "Teeler Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "toe-stand-wing",
@@ -456,7 +3352,54 @@
     "level": 7,
     "essential": false,
     "category": "air",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Scrape (both toes)",
+      "Spank (both toes)",
+      "Land on toe tips"
+    ],
+    "count": [
+      {
+        "sound": "Scrape (out)",
+        "beat": "&"
+      },
+      {
+        "sound": "Spank (in)",
+        "beat": "a"
+      },
+      {
+        "sound": "Land (toe tips)",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 90
+    },
+    "description": "A double wing done on the tips of the toes. From a toe stand with the feet together, scrape both toes outward and up, spank them back in together, and land again on both toe tips with the feet together.",
+    "tips": [
+      "Keep the knees bent throughout to absorb the landing and stay balanced on the toes.",
+      "Get comfortable holding a plain toe stand before you try to spring out of one."
+    ],
+    "prerequisites": [
+      "wings",
+      "toe-stand"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "HuPPyhBRdTU",
+        "title": "Toe Stand Wings Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "lWMrSYVtBAw",
+        "title": "TAP DANCE TUTORIAL - Toestand Wings",
+        "channel": "Melanie Oster",
+        "type": "tutorial"
+      }
+    ]
   },
   {
     "id": "toro",
@@ -465,6 +3408,54 @@
     "level": 7,
     "essential": false,
     "category": "combination",
-    "videos": []
+    "sounds": 3,
+    "breakdown": [
+      "Stomp",
+      "Scuff",
+      "Smack"
+    ],
+    "count": [
+      {
+        "sound": "Stomp",
+        "beat": "&"
+      },
+      {
+        "sound": "Scuff",
+        "beat": "a"
+      },
+      {
+        "sound": "Smack",
+        "beat": "1"
+      }
+    ],
+    "bpm": {
+      "slow": 60,
+      "normal": 100
+    },
+    "description": "All on the right foot: stomp, scuff, then smack, with the smack taking your weight like a step. Three heavy, punchy sounds that land on the count.",
+    "tips": [
+      "Let the stomp bounce off the floor a little before you go into the scuff so the scuff sounds clean.",
+      "Keep the leg straight on the smack for a sharp, hard final sound."
+    ],
+    "prerequisites": [
+      "stomp",
+      "scuff",
+      "smack"
+    ],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "kEiCbTD76_8",
+        "title": "Toro Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "8-Iqyk_4CiE",
+        "title": "Toro Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      }
+    ]
   }
 ]
