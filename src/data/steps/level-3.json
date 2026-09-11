@@ -1955,7 +1955,26 @@
       "switching-pullback",
       "irish-pullback"
     ],
-    "videos": []
+    "videos": [
+      {
+        "youtubeId": "KXTFZBty9lk",
+        "title": "Skipping Pullback Tap Dance Move Shown by Rod Howell",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "WLjo-ZD-xsw",
+        "title": "Skipping Pullback Tap Dance Move Shown by Rod Howell at unitedtaps.com",
+        "channel": "United Taps - Tap Dance Lessons",
+        "type": "demo"
+      },
+      {
+        "youtubeId": "fiesmHdgwwk",
+        "title": "Tap Dance Syllabus. Level 3️⃣ 103. Skipping Pullback",
+        "channel": "Ina Tap dance lessons",
+        "type": "demo"
+      }
+    ]
   },
   {
     "id": "step-heel-heel",
