@@ -1843,9 +1843,7 @@
       "shuffle",
       "flap"
     ],
-    "nextSteps": [
-      "double-flap"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "zaAStz32OI0",
@@ -1994,9 +1992,7 @@
       "alexander",
       "clunk"
     ],
-    "nextSteps": [
-      "maxie-ford-clunk"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "hHDfx8KobhA",
@@ -2327,7 +2323,6 @@
       "dig-toe"
     ],
     "nextSteps": [
-      "scuff-dig-toe",
       "shuffle-dig-toe"
     ],
     "videos": [
@@ -2581,10 +2576,7 @@
     "prerequisites": [
       "cramp-roll"
     ],
-    "nextSteps": [
-      "backwards-cramp-roll",
-      "criss-cross-cramp-roll"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "aWeOiNSZ7Ag",
@@ -2818,9 +2810,7 @@
       "scuffle-step",
       "dig-toe"
     ],
-    "nextSteps": [
-      "scuffle-dig-toe"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "Sh0aC0YuV6I",
@@ -3185,9 +3175,7 @@
       "dig",
       "spank"
     ],
-    "nextSteps": [
-      "scuffle-dig-toe"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "S4efPsj2QcQ",

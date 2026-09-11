@@ -1463,8 +1463,7 @@
       "flap-heel-turn"
     ],
     "nextSteps": [
-      "maxie-ford-pullback",
-      "double-maxie-ford"
+      "maxie-ford-pullback"
     ],
     "videos": [
       {
@@ -1998,10 +1997,7 @@
       "step-heel",
       "heel"
     ],
-    "nextSteps": [
-      "flap-heel-heel",
-      "alexander"
-    ],
+    "nextSteps": [],
     "videos": [
       {
         "youtubeId": "2vQ8WhN0XEY",

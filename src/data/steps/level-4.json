@@ -2603,7 +2603,6 @@
       "cramp-roll"
     ],
     "nextSteps": [
-      "double-cramp-roll",
       "triple-cramp-roll"
     ],
     "videos": [
@@ -2880,7 +2879,6 @@
       "flap-ball-change"
     ],
     "nextSteps": [
-      "double-flap",
       "shuffle-flap"
     ],
     "videos": [
