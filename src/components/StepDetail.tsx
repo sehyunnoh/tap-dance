@@ -28,13 +28,6 @@ export function StepDetail({ step }: { step: Step }) {
     return () => setSuggestion(null)
   }, [step, setSuggestion])
 
-  useEffect(() => {
-    document.title = `${step.name} · Tap Steps`
-    return () => {
-      document.title = 'Tap Steps'
-    }
-  }, [step.name])
-
   const youtubeLink = (
     <a href={youtubeSearchUrl(step)} target="_blank" rel="noreferrer" className="flex h-11 items-center gap-2 text-sm underline">
       <ExternalIcon size={18} />

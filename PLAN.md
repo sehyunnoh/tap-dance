@@ -183,7 +183,7 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 |---|---|---|
 | 프레임워크 | **Vite + React + TypeScript** | 가볍고 빠름, 필터·검색·플레이어 UI 만들기 편함 |
 | 스타일 | **Tailwind CSS** | 반응형·모바일 레이아웃을 빠르게 |
-| 라우팅 | React Router **HashRouter** (`#/steps/:id`) | GitHub Pages에서 새로고침해도 404가 나지 않음 |
+| 라우팅 | React Router **BrowserRouter** (`/steps/:id`) + 빌드 때 프리렌더 | 스텝마다 실제 주소·실제 HTML 파일이 생겨 검색에 잡힘 (7.2) |
 | 영상 | **YouTube IFrame Player API** | 속도 조절(`setPlaybackRate`), 구간 반복(`seekTo`) 제어 |
 | 데이터 | `src/data/steps/level-1.json` ~ `level-7.json` | 레벨별로 파일을 나눠 관리·수정이 쉬움 |
 | 검색 | 간단한 자체 검색 (필요하면 Fuse.js) | 오타 허용 |
@@ -199,6 +199,26 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 - `.github/workflows/deploy.yml`: push → `npm ci` → `npm run build` → Pages 배포
 - 무료 계정은 GitHub Pages를 쓰려면 **공개(Public) 저장소**여야 함 → **공개로 확정**
 
+### 7.2 검색 노출 (SEO) — 프리렌더
+- **문제**: SPA는 HTML이 빈 껍데기 하나뿐이라 검색엔진에 루트 한 페이지만 잡힘. 해시 주소(`#/…`)는 아예 별개 페이지로 인식되지 않음
+- **해결**: 빌드 때 라우트마다 HTML 파일을 미리 만들어 둠 (프리렌더). 스텝 315개 + 로드맵 8개 + 루트 = **324개**
+- **주소**: `HashRouter` → `BrowserRouter`. `…/tap-dance/steps/maxie-ford/` 처럼 실제 경로
+  - 예전 해시 링크·즐겨찾기는 `src/lib/legacyHashUrl.ts`가 새 주소로 바꿔줌
+- **빌드 흐름** (`npm run build`)
+  1. `vite build` — 브라우저 번들 + `dist/index.html` (틀로 씀)
+  2. `vite build --ssr src/entry-server.ts` — 렌더 전용 번들 `dist-ssr/`
+  3. `node scripts/prerender.mjs` — 라우트마다 렌더해서 `dist/<경로>/index.html` 작성, `sitemap.xml`·`404.html` 생성, `dist-ssr/` 삭제
+- **페이지마다 넣는 것**: `<title>`, `description`, `canonical`, Open Graph, Twitter Card, JSON-LD (루트는 `WebSite`, 나머지는 `BreadcrumbList`)
+  - 문구는 전부 `src/lib/seo.ts` 한 곳에서 만듦 → 화면 제목과 검색 결과 제목이 항상 같음
+  - 스텝 설명이 없으면 레벨·분류·소리 개수로 설명을 자동 생성
+- **하이드레이션 안 함**: 화면 내용이 localStorage(테마·연습 기록·템포)에 따라 달라져서 서버가 미리 알 수 없음 → 브라우저는 미리 만든 HTML 위에 그냥 새로 그림. 검색엔진과 첫 화면에는 그대로 도움이 됨
+- **404**: `dist/404.html`(noindex)을 GitHub Pages가 못 찾은 주소에 내려줌 → 앱이 "Step not found" 표시
+- **robots.txt**: GitHub Pages 프로젝트 페이지는 `sehyunnoh.github.io/robots.txt`(다른 저장소)를 읽으므로 `public/robots.txt`는 사실상 안 읽힘. 막는 건 없으니 문제는 없고, **사이트맵은 직접 등록**해야 함
+- **사용자가 직접 할 일**
+  1. [Google Search Console](https://search.google.com/search-console) 에 `https://sehyunnoh.github.io/tap-dance/` 등록 → 사이트맵에 `https://sehyunnoh.github.io/tap-dance/sitemap.xml` 제출
+  2. (선택) [Bing Webmaster Tools](https://www.bing.com/webmasters) 에도 동일하게
+  3. (선택) 공유 미리보기 그림 — 1200×630 PNG를 `public/og.png`로 넣으면 자동으로 붙음. 없으면 그림 없는 텍스트 카드
+
 ### 7.3 방문 통계 — GoatCounter
 - **변경 이유**: Umami Cloud 무료 플랜의 사이트 개수 제한에 걸림 (이미 다른 사이트 등록됨) → GoatCounter로 변경 (2026-09-11)
 - **플랜**: goatcounter.com 무료 — 개인·소규모 사이트의 "적당한 사용량"은 무료
@@ -206,7 +226,8 @@ Level 1 Beginner · Level 2 Elementary · Level 3 Pre-Intermediate · Level 4 In
 - **설치**: `src/lib/analytics.ts`가 배포 주소(`sehyunnoh.github.io`)에서만 `https://gc.zgo.at/count.js`를 불러옴
   - 코드는 GitHub 저장소 변수 `GOATCOUNTER_CODE` → 빌드 때 `VITE_GOATCOUNTER_CODE`로 들어감. 비어 있으면 통계 꺼짐
   - 내 PC(localhost)에서 연 것은 집계되지 않음
-  - 해시 주소(`#/steps/maxie-ford`)는 기본 설정으로는 안 잡히므로, 라우터가 바뀔 때마다 `pageview()`로 직접 집계 (`App.tsx`의 `PageviewTracker`)
+  - 화면 안에서 이동할 때는 페이지가 새로 뜨지 않으므로, 라우터가 바뀔 때마다 `pageview()`로 직접 집계 (`App.tsx`의 `PageviewTracker`)
+  - 2026-09-17 주소 방식이 `#/steps/maxie-ford` → `/tap-dance/steps/maxie-ford`로 바뀜. 대시보드에서 이 날 이전·이후 경로가 다르게 보임
   - 사이트 코드는 원래 페이지 소스에 공개되는 값이라 공개 저장소에 올려도 문제없음
 - **이벤트 추적**: `track(이름, 데이터)` — GoatCounter 이벤트는 이름과 제목만 있고 대시보드가 이름별로 묶으므로, 데이터를 이름에 붙여 보냄
   - 예: `speed-change · rate=0.5`, `video-play · step=maxie-ford video=…`, `metronome-start · bpm=80`, `search · q=pullback results=3`
@@ -224,7 +245,8 @@ tap-dance/
 ├─ PLAN.md
 ├─ .github/workflows/deploy.yml
 ├─ scripts/
-│  └─ verify-videos.ts         # oEmbed로 영상 존재·임베드 여부 검증
+│  ├─ verify-videos.ts         # oEmbed로 영상 존재·임베드 여부 검증
+│  └─ prerender.mjs            # 라우트별 HTML·sitemap.xml·404.html 생성
 ├─ src/
 │  ├─ data/
 │  │  ├─ steps/level-1.json … level-7.json
@@ -238,7 +260,9 @@ tap-dance/
 │  │  ├─ PracticePlayer.tsx    # 속도 조절·A-B 루프·미러 플레이어
 │  │  └─ Metronome.tsx         # Web Audio 메트로놈
 │  ├─ lib/
-│  │  └─ analytics.ts          # GoatCounter 페이지뷰·이벤트 추적 (pageview, track)
+│  │  ├─ analytics.ts          # GoatCounter 페이지뷰·이벤트 추적 (pageview, track)
+│  │  └─ seo.ts                # 페이지별 제목·설명·breadcrumb (프리렌더와 화면이 같이 씀)
+│  ├─ entry-server.ts          # 프리렌더 전용 진입점 (scripts/prerender.mjs가 부름)
 │  ├─ pages/
 │  │  ├─ StepListPage.tsx
 │  │  └─ StepDetailPage.tsx
@@ -288,6 +312,7 @@ Level 1부터 연습하신다고 하셨으니 **Level 1을 가장 먼저 완성�
 | **4** | Level 2~4 데이터 | 순서대로 추가·배포 |
 | **5** | Level 5~7 데이터 (창작 스텝은 자료가 있는 만큼) | 전체 약 300개 |
 | **6** | 전체 영상 재검증, 모바일 점검, 다듬기 | 최종 버전 |
+| **7** | 검색 노출 (프리렌더·사이트맵·메타) | 스텝마다 검색에 잡히는 주소 (7.2) |
 
 > 3단계가 끝나면 한 번 보여드리고, 설명 방식이나 영상 고르는 기준이 괜찮은지 확인받은 뒤 나머지 레벨에 똑같이 적용하겠습니다.
 
@@ -305,6 +330,7 @@ Level 1부터 연습하신다고 하셨으니 **Level 1을 가장 먼저 완성�
 | 연습 기록 체크 | 1차 제외 |
 | 사용자 수준 | 예전에 배운 적 있음 → Level 1부터 다시 연습 |
 | 방문 통계 | ~~Umami Cloud~~ → GoatCounter 무료 (Umami 사이트 개수 제한) + 연습 기능 사용 이벤트 추적 |
+| 검색 노출 | 빌드 때 라우트별 HTML 프리렌더 (2026-09-17) |
 
 남은 질문 없음.
-**사용자가 준비할 것**: GoatCounter 가입 후 사이트 코드 전달 (7.3 참고).
+**사용자가 준비할 것**: GoatCounter 가입 후 사이트 코드 전달 (7.3 참고), Search Console에 사이트맵 제출 (7.2 참고).

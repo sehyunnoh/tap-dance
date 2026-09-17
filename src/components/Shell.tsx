@@ -3,6 +3,8 @@ import { Link, useMatch } from 'react-router'
 import { LEVEL_NUMBERS } from '../data/meta'
 import { STEP_BY_ID, STEPS } from '../data/steps'
 import { nextToPractice } from '../lib/practice'
+import { SITE_NAME, SITE_TITLE, titleForLevel, titleForStep } from '../lib/seo'
+import { useDocumentTitle } from '../lib/useDocumentTitle'
 import { usePractice } from '../state/practiceState'
 import type { Level } from '../types'
 import { RoadmapIcon } from './icons'
@@ -36,6 +38,9 @@ export function Shell() {
       ? (nextToPractice(STEPS, statuses)?.level ?? 1)
       : undefined
   const page = id ?? (roadmapLevel ? `roadmap-${roadmapLevel}` : undefined)
+
+  // The prerender sets the first title; this keeps it right after client-side navigation.
+  useDocumentTitle(step ? titleForStep(step) : roadmapLevel ? titleForLevel(roadmapLevel) : id ? `Step not found · ${SITE_NAME}` : SITE_TITLE)
 
   const mainRef = useRef<HTMLElement>(null)
   const listScroll = useRef(0)

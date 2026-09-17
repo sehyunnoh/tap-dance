@@ -1,0 +1,7 @@
+# Crawlers read robots.txt at the domain root, so on GitHub Pages this file only takes effect
+# if the site moves to its own domain. Until then nothing is blocked (that is the default) and
+# the sitemap is submitted by hand in Google Search Console / Bing Webmaster Tools.
+User-agent: *
+Allow: /
+
+Sitemap: https://sehyunnoh.github.io/tap-dance/sitemap.xml
